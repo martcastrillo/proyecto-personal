@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.5caaa91d.css",
+    "main.css": "./static/css/main.b5991a30.css",
     "main.js": "./static/js/main.9ac890c3.js",
     "static/media/piscismarco.png": "./static/media/piscismarco.278ab283c4c30de88c5c.png",
     "static/media/cancermarco.png": "./static/media/cancermarco.ab20aa51ab206ccba980.png",
@@ -28,11 +28,11 @@
     "static/media/handleft.png": "./static/media/handleft.861f7092712ddd9c3391.png",
     "static/media/virgo.png": "./static/media/virgo.8b0cc478e4d35b25d542.png",
     "index.html": "./index.html",
-    "main.5caaa91d.css.map": "./static/css/main.5caaa91d.css.map",
+    "main.b5991a30.css.map": "./static/css/main.b5991a30.css.map",
     "main.9ac890c3.js.map": "./static/js/main.9ac890c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5caaa91d.css",
+    "static/css/main.b5991a30.css",
     "static/js/main.9ac890c3.js"
   ]
 }
