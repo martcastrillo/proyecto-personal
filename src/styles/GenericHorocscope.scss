@@ -17,16 +17,16 @@ body{
 }
 .header{
     margin-top: 30px;
-    height: 280px;
+  
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
    .logo{
-    height: 150px;
+    height:70px ;
    }
    .h1{
-    font-size:150px ;
+    font-size:70px ;
     color: #AF6FAC;
     text-transform: capitalize;
    }
@@ -34,7 +34,8 @@ body{
 .generichoroscope {
 	display: flex;
 	justify-content: center;
-    gap: 200px;
+    align-items: center;
+    gap: 100px;
     margin-top: 100px;
 	&__divimage {
         display: flex;
@@ -43,7 +44,7 @@ body{
 		
         &__image{
         
-            width: 550px;
+            width: 400px;
             z-index: 1;
           
             
@@ -53,7 +54,7 @@ body{
     &__text {
         align-self: center;
         font-family: $font-second;
-        font-size: 28px;
+        font-size: 25px;
         width: 900px;
        color: #B9B9D8;
         text-align: justify;
@@ -65,7 +66,7 @@ body{
     }
     &__h2 {
         font-family: $font-main;
-        font-size: 70px;
+        font-size: 50px;
       color: #A86159;
       margin-bottom: 30px;
       padding: 2px;
