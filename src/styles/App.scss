@@ -1,0 +1,32 @@
+@import './core/Variables';
+@import './core/Reset';
+body{
+    background-color: #000000;
+    font-family:$font-main;
+}
+.header{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   .logo{
+    height: 350px;
+   }
+}
+.main{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+
+
+
+
+
+
