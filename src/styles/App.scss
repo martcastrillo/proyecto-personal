@@ -1,7 +1,7 @@
 @import './core/Variables';
 @import './core/Reset';
 body{
-    background-color: #212633;
+    background-image: url('../images/Fondo.png');
     height: 100%;
 }
 .background-main{
@@ -16,7 +16,7 @@ body{
 }
 .nav{
     width: 100vw;
-    background-color: #C070AA;
+    background-color: $color-second;
     list-style: none;
     display: flex;
     height: 40px;
@@ -29,66 +29,83 @@ body{
         font-family: $font-second;
         text-transform: uppercase;
         &:hover {
-            color: #212633;
+            color:$color-fourth ;
             
         }
     }
 }
 .headermain{
-    margin-top: 50px;
-    height: 280px;
+    height: 180px;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
    .logomain{
-    height: 150px;
+    height: 100px;
    }
    .h1main{
-    font-size:150px ;
-   color: #DEDEFF;
+    font-size:100px ;
+    font-family:$font-main;
+   color: $color-third;
     text-transform: capitalize;
    }
 }
-.form{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    gap: 30px;
-    font-family:$font-second;
-    color: #AF6FAC;
-}
-.mainhoroscope{
-    margin:80px ;
-    display: grid;
-
-    gap: 50px;
-  
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-
-}
-
-.onehoroscope{
+.inicio{
+    color:$color-third;
+    gap: 40px;
+    margin: 125px 600px 100px 600px;
+    font-family:$font-main;
+justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    &__name{
-        font-size: 22px;
-        color: #DEDEFF;
-        text-transform: uppercase;
+    .h3{
+        font-family:$font-second;
+        font-weight: 200;
         text-align: center;
+        line-height : 45px;
+        
     }
-    &__img{
-        width: 150px;
-        height: 150px;
+    .h2{
+        font-family:$font-main;
     }
+
 }
+.button {
+    font-family: $font-second;
 
+    font-weight: 500;
+    border-radius: 22.5px;
 
+      padding: 10px 30px 10px 30px;
+      margin-top: 41px;
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      color: $color-third;
+      background-color: $color-fifth;
+      &:hover {
+        background-color: $color-third;
+        transform: scale(1.1, 1.1);
+        transition: transform 2s;
+        color:$color-fifth;
+      }
+      &:not(:hover) {
+        transition: transform 2s;
+      }
+      @media all and (min-width: 768px) {
+        padding: 10px 43px 10px 43px;
+        margin-top: 57px;
+      }
+      @media all and (min-width: 1280px) {
+        padding: 10px 62px 10px 62px;
+      }
+  
+  }
+  
 
 .footer {
-    position: fixed;
+  position: absolute;
     bottom: 0;
     width: 100vw;
     height: 30px;
@@ -96,9 +113,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: rgb(255, 255, 255);
+     color: $color-third;
     text-align: center;
     font-family: $font-second;
-    background-color: #653666;
+    background-color: $color-first;
   }
 

@@ -1,0 +1,87 @@
+@import "./core/Variables";
+
+.famous {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	margin-top: 100©px;
+
+	&__divimage {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__text {
+		align-self: center;
+		font-family: $font-second;
+		font-size: 20px;
+		width: 600px;
+		color: $color-third;
+		text-align: justify;
+		flex-direction: column;
+		gap: 30px;
+		margin-bottom: 40px;
+	}
+
+	&__h2 {
+		font-family: $font-main;
+		font-size: 50px;
+		color: $color-second;
+		margin-bottom: 30px;
+		padding: 2px;
+		text-align: center;
+	}
+	&__h4 {
+		font-family: $font-main;
+		font-size: 30px;
+		color: $color-first;
+
+		align-self: start;
+	}
+}
+
+.famous-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fbutton {
+	font-family: $font-main;
+
+
+
+    font-weight: 500;
+    border-radius: 22.5px;
+
+      padding: 10px 30px 10px 30px;
+      margin-top: 41px;
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      color: $color-third;
+      background-color: $color-fifth;
+
+	color: $color-third;
+	background-color: $color-fifth;
+	&:hover {
+		background-color: $color-third;
+		transform: scale(1.1, 1.1);
+		transition: transform 2s;
+		color: $color-fifth;
+	}
+	&:not(:hover) {
+		transition: transform 2s;
+	}
+}
+
+.link-famous {
+	color: $color-second;
+	font-size: 22px;
+	margin-top: 80px;
+
+	&:hover {
+		color: $color-third;
+	}
+}

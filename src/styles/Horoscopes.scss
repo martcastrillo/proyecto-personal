@@ -1,0 +1,90 @@
+@import './core/Variables';
+@import './core/Reset';
+body{
+    background-image: url('../images/Fondo.png');
+    height: 100%;
+}
+.background-main{
+ 
+
+    background-position: center;
+      object-fit: cover;
+      background-origin: content-box;
+      background-repeat: no-repeat;
+    height: 100%;
+    font-family:$font-main;
+}
+.nav{
+    width: 100vw;
+    background-color: $color-second;
+    list-style: none;
+    display: flex;
+    height: 40px;
+    align-items: center;
+   justify-content: center;
+   gap: 40px;
+    
+    &__element{
+        color: #DEDEFF;
+        font-family: $font-second;
+        text-transform: uppercase;
+        &:hover {
+            color:$color-fourth ;
+            
+        }
+    }
+}
+.headermain{
+    height: 180px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   .logomain{
+    height: 100px;
+   }
+   .h1main{
+    font-size:100px ;
+    font-family:$font-main;
+   color: $color-third;
+    text-transform: capitalize;
+   }
+}
+.form{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    gap: 30px;
+    font-family:$font-second;
+    color: $color-first;
+}
+.mainhoroscope{
+    margin:60px ;
+    display: grid;
+margin-top: 100px;
+    gap: 50px;
+  
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.onehoroscope{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__name{
+        font-size: 22px;
+        color: $color-third;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
+

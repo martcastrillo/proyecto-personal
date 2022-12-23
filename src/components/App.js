@@ -13,6 +13,8 @@ import Acuario from "./Horoscopes/Acuario";
 import Virgo from "./Horoscopes/Virgo";
 import Leo from "./Horoscopes/Leo";
 import Geminis from "./Horoscopes/Geminis";
+import Inicio from "./Inicio";
+import Famoso from "./Famoso";
 import tauro from "../images/horoscope-icon/tauro.png";
 import leo from "../images/horoscope-icon/leo.png";
 import escorpio from "../images/horoscope-icon/escorpio.png";
@@ -31,41 +33,51 @@ import handright from "../images/handright.png";
 function App() {
 	return (
 		<>
-		<ul className="nav">
-			<li ><NavLink to='/contacto' className="nav__element" id='contact-link' target='_blank'>
-  Inicio
-</NavLink></li>
-			<li><NavLink to='/contacto' className="nav__element" id='contact-link' target='_blank'>
- Horoscopos
-</NavLink></li>
-			<li><NavLink to='/contacto' className="nav__element" id='contact-link' target='_blank'>
-  Famosos de tu signo
-</NavLink></li>
-		</ul>
-
-
-
-
+			<ul className="nav">
+				<li>
+					<NavLink to="/" className="nav__element" id="contact-link">
+						Inicio
+					</NavLink>
+				</li>
+				<li>
+					<NavLink to="/Horoscopos" className="nav__element" id="contact-link">
+						Horoscopos
+					</NavLink>
+				</li>
+				<li>
+					<NavLink
+						to="/Famosos-de-tu-signo"
+						className="nav__element"
+						id="contact-link"
+					>
+						Famosos de tu signo
+					</NavLink>
+				</li>
+			</ul>
+			<Link to="/" className="link header">
+				<header className="headermain">
+					<img
+						className="logomain"
+						src={handleft}
+						alt="logo"
+						title="rick-and"
+					/>
+					<h1 className="h1main">horóscopo</h1>
+					<img
+						className="logomain"
+						src={handright}
+						alt="logo"
+						title="rick-and"
+					/>
+				</header>
+			</Link>
 			<Routes>
+				<Route path="/" element={<Inicio />}></Route>
 				<Route
-					path="/"
+					path="/Horoscopos"
 					element={
 						<div className="background-main">
-							<header className="headermain">
-								<img
-									className="logomain"
-									src={handleft}
-									alt="logo"
-									title="rick-and"
-								/>
-								<h1 className="h1main">horóscopo</h1>
-								<img
-									className="logomain"
-									src={handright}
-									alt="logo"
-									title="rick-and"
-								/>
-							</header>
+				
 							<form action="" className="form">
 								<input type="checkbox" />
 								<label htmlFor=""> Fuego</label>
@@ -129,7 +141,9 @@ function App() {
 						</div>
 					}
 				></Route>
-
+				<Route path="/Famosos-de-tu-signo" element={<Famoso />}>
+					{" "}
+				</Route>
 				<Route path="/aries" element={<Aries />}></Route>
 				<Route path="/tauro" element={<Tauro />}></Route>
 				<Route path="/geminis" element={<Geminis />}></Route>

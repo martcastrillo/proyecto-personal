@@ -1,22 +1,12 @@
 import "../../styles/GenericHorocscope.scss";
 import { Link } from "react-router-dom";
 import cancermarco from "../../images/marco/cancermarco.png"
-import handleft from "../../images/handleft.png";
-import handright from "../../images/handright.png";
+
 const Cancer = () => {
 	return (
 		
 		<div className="background">
-		<header className="header">
-		<Link to="/" className="link header">
-				
-				
-		
-				<img className="logo" src={handleft} alt="logo" title="rick-and" />
-				<h1 className="h1">horóscopo</h1>
-				<img className="logo" src={handright} alt="logo" title="rick-and" />
-				</Link>
-			</header>
+
 		<div className="generichoroscope">
 			<div className="generichoroscope__divivage">
 				<img src={cancermarco}alt="" className="generichoroscope__divimage__image"/>

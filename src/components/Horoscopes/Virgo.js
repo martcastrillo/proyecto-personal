@@ -1,22 +1,12 @@
 import "../../styles/GenericHorocscope.scss";
 import { Link } from "react-router-dom";
 import virgomarco from "../../images/marco/virgomarco.png"
-import handleft from "../../images/handleft.png";
-import handright from "../../images/handright.png";
+
 const Virgo = () => {
 	return (
 		
 		<div className="background">
-		<header className="header">
-		<Link to="/" className="link header">
-				
-				
-		
-				<img className="logo" src={handleft} alt="logo" title="rick-and" />
-				<h1 className="h1">horóscopo</h1>
-				<img className="logo" src={handright} alt="logo" title="rick-and" />
-				</Link>
-			</header>
+	
 		<div className="generichoroscope">
 			<div className="generichoroscope__divivage">
 				<img src={virgomarco}alt="" className="generichoroscope__divimage__image"/>

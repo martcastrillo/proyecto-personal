@@ -1,4 +1,6 @@
 @import './core/Variables';
+@import './Horoscopes';
+
 body{
     background-color: #212633;
     height: 100%;   
@@ -27,7 +29,7 @@ body{
    }
    .h1{
     font-size:70px ;
-    color: #AF6FAC;
+    color: $color-sixth;
     text-transform: capitalize;
    }
 }
@@ -56,7 +58,7 @@ body{
         font-family: $font-second;
         font-size: 25px;
         width: 900px;
-       color: #B9B9D8;
+       color: $color-third;
         text-align: justify;
         flex-direction: column;
         gap: 30px;
@@ -67,18 +69,18 @@ body{
     &__h2 {
         font-family: $font-main;
         font-size: 50px;
-      color: #A86159;
+      color:$color-second;
       margin-bottom: 30px;
       padding: 2px;
       text-align: center;
     }
 }
 .link {
-	color: #A86159;
+	color: $color-second;
 	font-size: 22px;
     margin-top: 50px;
 	&:hover {
-		color: white;
+		color:$color-third;
 		
 	}
 }
