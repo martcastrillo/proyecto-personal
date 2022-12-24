@@ -1,78 +1,61 @@
-@import './core/Variables';
-@import './core/Reset';
+@import "./core/Variables";
+@import "./core/Reset";
 
-/* .background-main{
- 
-
-    background-position: center;
-      object-fit: cover;
-      background-origin: content-box;
-      background-repeat: no-repeat;
-    height: 100%;
-    font-family:$font-main;
-} */
-
-.headermain{
-    height: 180px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   .logomain{
-    height: 100px;
-   }
-   .h1main{
-    font-size:100px ;
-    font-family:$font-main;
-   color: $color-third;
-    text-transform: capitalize;
-   }
+.headermain {
+	height: 180px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.logomain {
+		height: 100px;
+	}
+	.h1main {
+		font-size: 100px;
+		font-family: $font-main;
+		color: $color-third;
+		text-transform: capitalize;
+	}
 }
-.form{
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    gap: 30px;
-    font-family:$font-second;
-    color: $color-golden;
+.form {
+	margin: 40px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	gap: 30px;
+	font-family: $font-second;
+	color: $color-golden;
 }
-.mainhoroscope{
-    margin:60px ;
-    display: grid;
-margin-top: 100px;
-    gap: 50px;
+.mainhoroscope {
   
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 100px 300px 100px 300px;
+	display: grid;
 
+	gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+ 
 }
 
-.onehoroscope{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: $color-third;
-    &__name{
-        font-size: 22px;
-        color: inherit;
-        text-transform: uppercase;
-        text-align: center;
-        filter: inherit;
-    }
-    &__img{
-        width: 150px;
-        height: 150px;
-   
-    }
-    &:hover {
-
-        transform: scale(1.1, 1.1);
-        transition: transform 2s;
-        filter: drop-shadow(0px 0px 6px $color-golden);
-    }
-      }
-
-
-
-
-
+.onehoroscope {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: $color-third;
+	&__name {
+		font-size: 22px;
+		color: inherit;
+		text-transform: uppercase;
+		text-align: center;
+		filter: inherit;
+	}
+	&__img {
+		width: 150px;
+		height: 150px;
+	}
+	&:hover {
+		transform: scale(1.1, 1.1);
+		transition: transform 2s;
+		filter: drop-shadow(0px 0px 6px $color-golden);
+	}
+}

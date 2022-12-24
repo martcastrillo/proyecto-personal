@@ -2,23 +2,23 @@
 @import "./core/Reset";
 body {
 	background-image: url("../images/Fondo.png");
-	background-size: initial 760px;
 
+ 
 	@media all and (min-width: 768px) {
 	}
 }
 .background-main {
-	background-position: center;
-	object-fit: cover;
-	background-origin: content-box;
-	background-repeat: no-repeat;
-	height: 100%;
+
+
+
+
+	
 	font-family: $font-main;
 }
 .nav {
 	position: fixed;
 	top: 0;
-	width: 100vw;
+	width: 100%;
 	background-color: $color-second;
 	list-style: none;
 	display: flex;
@@ -111,7 +111,7 @@ body {
 .footer {
 	position: fixed;
 	bottom: 0;
-	width: 100vw;
+	width: 100%;
 	height: 30px;
 	font-size: 12px;
 	display: flex;
