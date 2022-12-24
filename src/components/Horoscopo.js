@@ -16,13 +16,13 @@ const Inicio = () => {
 	return (
 		<div className="background-main">
 			<form action="" className="form">
-				<input type="checkbox" />
+				<input type="radio" />
 				<label htmlFor=""> Fuego</label>
-				<input type="checkbox" />
+				<input type="radio" />
 				<label htmlFor=""> Tierra</label>
-				<input type="checkbox" />
+				<input type="radio" />
 				<label htmlFor=""> Aire</label>
-				<input type="checkbox" />
+				<input type="radio" />
 				<label htmlFor=""> Agua</label>
 			</form>
 			<div className="mainhoroscope">

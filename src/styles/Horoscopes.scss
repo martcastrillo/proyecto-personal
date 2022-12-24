@@ -38,7 +38,7 @@ body{
     font-size: 25px;
     gap: 30px;
     font-family:$font-second;
-    color: $color-first;
+    color: $color-golden;
 }
 .mainhoroscope{
     margin:60px ;
@@ -65,13 +65,13 @@ margin-top: 100px;
     &__img{
         width: 150px;
         height: 150px;
-        filter: drop-shadow(0px 0px 6px $color-golden);
+   
     }
     &:hover {
-        color: $color-golden;
+
         transform: scale(1.1, 1.1);
         transition: transform 2s;
-     
+        filter: drop-shadow(0px 0px 6px $color-golden);
     }
       }
 
