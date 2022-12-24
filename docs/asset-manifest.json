@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.666ade6a.css",
+    "main.css": "./static/css/main.6e7d7291.css",
     "main.js": "./static/js/main.e0c22c61.js",
     "static/media/famous-frame.png": "./static/media/famous-frame.6cdef3e01bd3f3df4ced.png",
     "static/media/piscismarco.png": "./static/media/piscismarco.33e41a8d2b2505813946.png",
@@ -30,11 +30,11 @@
     "static/media/handleft.png": "./static/media/handleft.de1b8e14be7098d65b82.png",
     "static/media/Fondo.png": "./static/media/Fondo.81595bd911f4b010f56f.png",
     "index.html": "./index.html",
-    "main.666ade6a.css.map": "./static/css/main.666ade6a.css.map",
+    "main.6e7d7291.css.map": "./static/css/main.6e7d7291.css.map",
     "main.e0c22c61.js.map": "./static/js/main.e0c22c61.js.map"
   },
   "entrypoints": [
-    "static/css/main.666ade6a.css",
+    "static/css/main.6e7d7291.css",
     "static/js/main.e0c22c61.js"
   ]
 }
