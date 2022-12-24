@@ -1,22 +1,7 @@
 @import './core/Variables';
 @import './Horoscopes';
 
-body{
-    background-color: #212633;
-    height: 100%;   
-}
-.background{
 
-     
-        height: 100%;
-
-    background-position: center;
-      object-fit: cover;
-      background-origin: content-box;
-      background-repeat: no-repeat;
-
-    font-family:$font-main;
-}
 .header{
     margin-top: 30px;
   
@@ -87,4 +72,5 @@ body{
 .opciones{
     display: flex;
     justify-content: space-between;
+    font-family: $font-main;
 }
