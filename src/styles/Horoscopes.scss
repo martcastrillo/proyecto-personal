@@ -14,26 +14,7 @@ body{
     height: 100%;
     font-family:$font-main;
 }
-.nav{
-    width: 100vw;
-    background-color: $color-second;
-    list-style: none;
-    display: flex;
-    height: 40px;
-    align-items: center;
-   justify-content: center;
-   gap: 40px;
-    
-    &__element{
-        color: #DEDEFF;
-        font-family: $font-second;
-        text-transform: uppercase;
-        &:hover {
-            color:$color-fourth ;
-            
-        }
-    }
-}
+
 .headermain{
     height: 180px;
     width: 100vw;
@@ -73,17 +54,27 @@ margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: $color-third;
     &__name{
         font-size: 22px;
-        color: $color-third;
+        color: inherit;
         text-transform: uppercase;
         text-align: center;
+        filter: inherit;
     }
     &__img{
         width: 150px;
         height: 150px;
+        filter: drop-shadow(0px 0px 6px $color-golden);
     }
-}
+    &:hover {
+        color: $color-golden;
+        transform: scale(1.1, 1.1);
+        transition: transform 2s;
+     
+    }
+      }
+
 
 
 

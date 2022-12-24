@@ -20,14 +20,14 @@ const Famoso = () => {
 			
 				
 			</div>
-            <div className="famous-buttons">
+            <div className="famous__buttons">
             <h2 className='fbutton'> Famoso Random</h2>
            <h2 className='fbutton'> Horóscopo Random</h2>
             </div>
       
 				</div>
-			<div className="famous__divivage">
-				<img src={famousframe}alt="" className="generichoroscope__divimage__image"/>
+			<div className="famous__divimage">
+				<img src={famousframe}alt="" className="famous__divimage__image"/>
 			</div>
 		
 		</div>

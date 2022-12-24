@@ -5,12 +5,18 @@
 	justify-content: center;
 	align-items: center;
 	gap: 100px;
-	margin-top: 100©px;
+	margin-top: 60px;
 
 	&__divimage {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		
+		/* filter: drop-shadow(0px 0px 3px $color-golden); */
+		&__image{
+		
+			width: 600px;
+		}
 	}
 
 	&__text {
@@ -40,13 +46,14 @@
 
 		align-self: start;
 	}
+	&__buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
-.famous-buttons {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 .fbutton {
 	font-family: $font-main;
 
@@ -70,6 +77,8 @@
 		transform: scale(1.1, 1.1);
 		transition: transform 2s;
 		color: $color-fifth;
+		box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px $color-golden, 0 0 10px $color-golden,
+		0 0 15px $color-golden, 0 0 20px $color-golden;
 	}
 	&:not(:hover) {
 		transition: transform 2s;

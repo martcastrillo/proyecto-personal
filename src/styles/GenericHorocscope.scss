@@ -38,7 +38,7 @@ body{
 	justify-content: center;
     align-items: center;
     gap: 100px;
-    margin-top: 100px;
+    margin-top: 70px;
 	&__divimage {
         display: flex;
         justify-content: center;
@@ -78,9 +78,13 @@ body{
 .link {
 	color: $color-second;
 	font-size: 22px;
-    margin-top: 50px;
+    margin-top: 30px;
 	&:hover {
 		color:$color-third;
 		
 	}
+}
+.opciones{
+    display: flex;
+    justify-content: space-between;
 }

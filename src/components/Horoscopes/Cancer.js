@@ -28,7 +28,7 @@ const Cancer = () => {
 				doloremque itaque tempora eum?</p>
 				
 			</div>
-			<Link to="/" className="link">
+			<Link to="/Horoscopos" className="link">
 				
 					<i className="fa-solid fa-chevron-left"></i>Return
 				</Link>
