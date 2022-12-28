@@ -49,16 +49,28 @@
         gap: 30px;
        .generichoroscope-paragraph{
         margin-bottom: 10px;
+        &__strong{
+            color:$color-golden;
+        }
        }
     }
     &__h2 {
         font-family: $font-main;
         font-size: 50px;
       color:$color-second;
-      margin-bottom: 30px;
+  
       padding: 2px;
       text-align: center;
     }
+    &__h3 {
+        font-family: $font-main;
+        font-size: 18px;
+      color:$color-sixth;
+      margin-bottom: 20px;
+      padding: 2px;
+      text-align: center;
+    }
+
 }
 .link {
 	color: $color-second;

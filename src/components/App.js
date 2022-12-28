@@ -46,11 +46,11 @@ function App() {
 				</li>
 				<li>
 					<NavLink
-						to="/Relaciones"
+						to="/Compatibilidad"
 						className="nav__element"
 						id="contact-link"
 					>
-						Relaciones
+						Compatibilidad
 					</NavLink>
 				</li>
 			</ul>
@@ -82,7 +82,7 @@ function App() {
 				<Route path="/Famosos-de-tu-signo" element={<Famoso />}>
 	
 				</Route> 
-				<Route path="/Relaciones" element={<Relaciones />}></Route>
+				<Route path="/Compatibilidad" element={<Relaciones />}></Route>
 				<Route path="/aries" element={<Aries />}></Route>
 				<Route path="/tauro" element={<Tauro />}></Route>
 				<Route path="/Geminis" element={<Geminis />}></Route>

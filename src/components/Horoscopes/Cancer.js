@@ -14,18 +14,8 @@ const Cancer = () => {
 			<div>
 			<div className="generichoroscope__text">
 			<h2 className="generichoroscope__h2">Características</h2>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
+			<h3 className="generichoroscope__h3">Del  22 de junio al 21 de julio</h3>
+				<p className='generichoroscope-paragraph'>Los <span className='generichoroscope-paragraph__strong'>Cáncer</span>  son personas complicadas de clasificar, si se atiende a su carácter. Los hay tímidos y aburridos , pero también brillantes y famosos . De hecho, algunos presentan una alta capacidad literaria y artística, gracias a su capacidad imaginativa. Les encanta ser extrovertidos, pero también tienen tendencia a retraerse. El hogar es lo más importante para ellos, por la seguridad y el calor que encuentran en él.</p>
 				
 			</div>
 			<div className="opciones">

@@ -17,23 +17,9 @@ const Leo = () => {
 				<div>
 					<div className="generichoroscope__text">
 						<h2 className="generichoroscope__h2">Características</h2>
+						<h3 className="generichoroscope__h3">Del 22 de julio al 23 de agosto</h3>
 						<p className="generichoroscope-paragraph">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-							maiores consequatur dolor aperiam fugiat voluptas, soluta,
-							repellendus assumenda asperiores exercitationem minus labore
-							ducimus unde quo veniam doloremque itaque tempora eum?
-						</p>
-						<p className="generichoroscope-paragraph">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-							maiores consequatur dolor aperiam fugiat voluptas, soluta,
-							repellendus assumenda asperiores exercitationem minus labore
-							ducimus unde quo veniam doloremque itaque tempora eum?
-						</p>
-						<p className="generichoroscope-paragraph">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-							maiores consequatur dolor aperiam fugiat voluptas, soluta,
-							repellendus assumenda asperiores exercitationem minus labore
-							ducimus unde quo veniam doloremque itaque tempora eum?
+						Es el signo más dominante del Zodiaco. Es creativo y extrovertido. Tienen ambición, fuerza, valentía y seguridad en sus capacidades. No temen a los obstáculos y suelen ser buenos, idealistas e inteligentes. Para los <span className='generichoroscope-paragraph__strong'>Leo</span>, el lujo y el poder están entre sus gustos. Asimismo, son capaces de utilizar trucos y mentiras para desacreditar a sus enemigos. A veces, también pueden caer en la superioridad y la prepotencia.
 						</p>
 					</div>
 					<div className="opciones">

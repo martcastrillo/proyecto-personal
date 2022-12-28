@@ -14,18 +14,8 @@ const Tauro = () => {
 			<div>
 			<div className="generichoroscope__text">
 			<h2 className="generichoroscope__h2">Características</h2>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
+			<h3 className="generichoroscope__h3">Del 21 de abril al 20 de mayo</h3>
+				<p className='generichoroscope-paragraph'>Un <span className='generichoroscope-paragraph__strong'>Tauro</span>  es una persona que tiene una gran fuerza de voluntad, es práctico y decidido en la toma de decisiones. Suelen ser personas estables y conservadoras y no dudan en seguir a un líder si les despierta confianza. Son gente de paz, por lo que lo normal es que respeten las leyes y normas. El hecho de que tengan entusiasmo por la rutina y la continuidad hace que sean algo tozudos y de ideas fijas. No suelen hundirse en las dificultades y siempre salen adelante. Amantes de la buena comida, bebida y distintos placeres de la vida deben tener cuidado con los excesos.</p>
 				
 			</div>
 			<div className="opciones">

@@ -14,18 +14,9 @@ const Virgo = () => {
 			<div>
 			<div className="generichoroscope__text">
 				<h2 className="generichoroscope__h2">Características</h2>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
+				<h3 className="generichoroscope__h3">Del 21 de marzo al 20 de abril</h3>
+			
+				<p className='generichoroscope-paragraph'>Único signo zodiacal representado por una mujer. Los <span className='generichoroscope-paragraph__strong'>Virgo</span> son observadores, pacientes y les cuesta hacer amigos por su carácter frío que muestran a veces. A pesar de ello tienen encanto y suelen ayudar a los demás cuando se presenta un problema. El método, el estudio y la lógica predominan en ellos, por eso les gusta aprender siempre, así como tener un análisis de la situación. Tanto se paran a pensar que a veces pueden retrasar la conclusión de los proyectos más complicados que llevan a cabo. Son intuitivos y capaces de ver todos los lados de un argumento.</p>
 				
 			</div>
 			<div className="opciones">

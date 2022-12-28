@@ -12,10 +12,7 @@ const Famoso = () => {
 		
                    <h2 className="famous__h2">Isabel Pantoja - Leo</h2>
              
-				<p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
+				<p className="famous__p" >María Isabel Pantoja Martín (Sevilla, 2 de agosto de 1956) es una cantante y actriz española. Es una de las cantantes más famosas e importantes de la historia de España, siendo una de las personas más perseguidas y fotografiadas de la prensa Española. </p>
 		
 			
 				

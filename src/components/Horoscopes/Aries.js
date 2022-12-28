@@ -14,18 +14,11 @@ const Aries = () => {
 			<div>
 			<div className="generichoroscope__text">
 			<h2 className="generichoroscope__h2">Características</h2>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
-				<p className='generichoroscope-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui maiores
-				consequatur dolor aperiam fugiat voluptas, soluta, repellendus assumenda
-				asperiores exercitationem minus labore ducimus unde quo veniam
-				doloremque itaque tempora eum?</p>
+			<h3 className="generichoroscope__h3">Del 21 de marzo al 20 de abril</h3>
+				<p className='generichoroscope-paragraph'>Los <span className='generichoroscope-paragraph__strong'>Aries</span> son personas llenas de energía y entusiasmo por la vida. Aventureros por naturaleza, les encantan los retos, la libertad y las nuevas ideas, por lo que nunca tienen miedo a los comienzos o nuevas etapas. Son líderes y prefieren dar órdenes a recibirlas. La energía que emana de ellos les lleva a ser algo agresivos, tercos e inquietos. Si te cruzas con alguno de ellos ten cuidado de no ofenderlos, ya que pueden sentirse así de forma muy fácil. Es complicado hacer las paces con ellos. Aries es el primer signo del Zodiaco, de ahí que sean líderes y les guste empezar nuevos retos. Siempre lucharán si creen que la causa merece la pena.</p>
+				
+			
+			
 				
 			</div>
 			<div className="opciones">

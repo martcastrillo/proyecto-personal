@@ -55,12 +55,7 @@ const Relaciones = () => {
 			</div>
 
 			<h3 className="text_relations">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-				unde culpa, debitis et tempora recusandae ad, impedit, adipisci commodi
-				cumque voluptatibus soluta. Eligendi a ab libero odit maiores totam
-				vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-				unde culpa Eligendi a ab libero odit maiores totam
-				vitae?
+			Cuando se trata de sus relaciones sentimentales, Virgo y Acuario comparten una personalidad curiosa que hace que experimenten constantemente en diferentes terrenos, Acuario sobre todo, quien adora la aventura arrastrando a Virgo consigo, ¿y qué aventura hay más excitante que el amor?
 			</h3>
 		</div>
 	);

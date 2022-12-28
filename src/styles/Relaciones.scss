@@ -3,14 +3,20 @@
 .relations {
 	display: flex;
 	justify-content: center;
-	gap: 100px;
+	gap: 20px;
+    @media all and (min-width: 768px) {
+        gap: 100px;
+	}
 	&__sign {
 		flex-direction: column;
 		display: flex;
 		align-items: center;
 		&__image {
-			width: 300px;
+			width: 150px;
             filter: drop-shadow(0px 0px 6px $color-golden);
+            @media all and (min-width: 768px) {
+                width: 300px;
+            }
         }
 	}
     &__hrscpA{
@@ -25,7 +31,10 @@
 .VS{
     align-self: center;
     color:$color-golden;
-    font-size: 30px;
+    font-size: 20px;
+    @media all and (min-width: 768px) {
+        font-size: 30px;
+	}
 }
 .rbutton {
 	font-family: $font-second;
@@ -52,22 +61,32 @@ text-align: center;
 	}
 }
 .selection{
-    margin: 40px;
+    margin:  20px 20px  20px 20px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+  
+    @media all and (min-width: 768px) {
+        margin: 40px;
+        gap: 30px;
+	}
 }
 .text_relations{
     display: flex;
     justify-content: center;
-    margin-left: 600px;
-    margin-right: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
     color: $color-third;
     font-weight: 200;
     line-height: 40px;
     font-family: $font-second;
+    @media all and (min-width: 768px) {
+        margin-left: 500px;
+        margin-right: 500px;
+	}
     }
+    
     .select{
         color: $color-second;
 		padding: 10px;
@@ -80,6 +99,10 @@ text-align: center;
 		-moz-appearance: none;
 		appearance: none;
 		-ms-appearance: none;
+        font-size: 12px;
+        @media all and (min-width: 768px) {
+            font-size: 16px;
+        }
         &:hover {
             background-color: $color-third;
             transform: scale(1.1, 1.1);

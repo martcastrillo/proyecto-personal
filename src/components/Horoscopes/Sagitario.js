@@ -16,23 +16,9 @@ const Sagitario = () => {
 				<div>
 					<div className="generichoroscope__text">
 						<h2 className="generichoroscope__h2">Características</h2>
+						<h3 className="generichoroscope__h3">Del 23 de noviembre al 21 de diciembre</h3>
 						<p className="generichoroscope-paragraph">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-							maiores consequatur dolor aperiam fugiat voluptas, soluta,
-							repellendus assumenda asperiores exercitationem minus labore
-							ducimus unde quo veniam doloremque itaque tempora eum?
-						</p>
-						<p className="generichoroscope-paragraph">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-							maiores consequatur dolor aperiam fugiat voluptas, soluta,
-							repellendus assumenda asperiores exercitationem minus labore
-							ducimus unde quo veniam doloremque itaque tempora eum?
-						</p>
-						<p className="generichoroscope-paragraph">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
-							maiores consequatur dolor aperiam fugiat voluptas, soluta,
-							repellendus assumenda asperiores exercitationem minus labore
-							ducimus unde quo veniam doloremque itaque tempora eum?
+						<span className='generichoroscope-paragraph__strong'>Sagitario</span>  es el signo más positivo de todo el Zodiaco . Cuando las cosas se ponen complicadas un Sagitario siempre sacará la mejor versión y se olvidará de la negatividad. Entre sus mejores características están las de ser buenos organizadores y abarcar nuevos proyectos y aprender cosas nuevas. El lado negativo es el genio que pueden mostrar a veces, sobre todo cuando detectan que alguien no va a su ritmo. Muchas veces también son exigentes con los demás , porque cuando un objetivo se les pone enfrente no dudan en sacrificarse.
 						</p>
 					</div>
 					<div className="opciones">

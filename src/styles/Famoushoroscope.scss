@@ -4,9 +4,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 100px;
-	margin-top: 60px;
-
+	flex-direction: column;
+	gap: 50px;
+	margin-top: 40px;
+	@media all and (min-width: 768px) {
+		flex-direction: row;
+		gap: 100px;
+		margin-top: 60px;
+	}
 	&__divimage {
 		display: flex;
 		justify-content: center;
@@ -14,30 +19,54 @@
 		
 		/* filter: drop-shadow(0px 0px 3px $color-golden); */
 		&__image{
+			width: 300px;
+			@media all and (min-width: 768px) {
+				width: 600px;
+			}
 		
-			width: 600px;
 		}
 	}
 
 	&__text {
 		align-self: center;
 		font-family: $font-second;
-		font-size: 20px;
-		width: 600px;
+		font-size: 10px;
+		
 		color: $color-third;
 		text-align: justify;
 		flex-direction: column;
-		gap: 30px;
+		gap: 10px;
 		margin-bottom: 40px;
+		width: 300px;
+			@media all and (min-width: 768px) {
+				font-size: 20px;
+				gap: 30px;
+				width: 600px;
+			}
 	}
 
 	&__h2 {
 		font-family: $font-main;
-		font-size: 50px;
+		font-size: 30px;
 		color: $color-second;
 		margin-bottom: 30px;
 		padding: 2px;
 		text-align: center;
+		@media all and (min-width: 768px) {
+			
+			font-size: 50px;
+		}
+	}
+	&__p {
+		font-family: $font-second;
+		font-size: 12px;
+		color: $color-third;
+		margin-bottom: 30px;
+		line-height: 28px;
+		@media all and (min-width: 768px) {
+			
+			font-size: 22px;
+		}
 	}
 	&__h4 {
 		font-family: $font-main;
@@ -50,6 +79,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		gap:20px;
 	}
 }
 
@@ -63,8 +93,8 @@
     border-radius: 22.5px;
 
       padding: 10px 30px 10px 30px;
-      margin-top: 41px;
-      margin-bottom: 60px;
+      margin-top: 20px;
+      margin-bottom: 10px;
       margin-left: auto;
       margin-right: auto;
       color: $color-third;
@@ -72,6 +102,14 @@
 
 	color: $color-third;
 	background-color: $color-fifth;
+	font-size: 12px;
+	@media all and (min-width: 768px) {
+		margin-top: 41px;
+		margin-bottom: 60px;
+		padding: 10px 30px 10px 30px;
+		font-size: 16px;
+
+	}
 	&:hover {
 		background-color: $color-third;
 		transform: scale(1.1, 1.1);
