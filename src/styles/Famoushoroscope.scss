@@ -8,10 +8,16 @@
 	gap: 50px;
 	margin-top: 40px;
 	@media all and (min-width: 768px) {
+	
+		gap: 50px;
+		margin-top: 50px;
+	}
+
+	  @media all and (min-width: 1200px) {
 		flex-direction: row;
 		gap: 100px;
 		margin-top: 60px;
-	}
+	  }
 	&__divimage {
 		display: flex;
 		justify-content: center;
@@ -21,6 +27,9 @@
 		&__image{
 			width: 300px;
 			@media all and (min-width: 768px) {
+				width: 350px;
+			}
+			@media all and (min-width: 1200px) {
 				width: 600px;
 			}
 		
@@ -39,10 +48,17 @@
 		margin-bottom: 40px;
 		width: 300px;
 			@media all and (min-width: 768px) {
+				font-size: 18px;
+				gap: 20px;
+				width: 600px;
+				margin-bottom: 10px;
+			}
+			@media all and (min-width: 1200px) {
 				font-size: 20px;
 				gap: 30px;
 				width: 600px;
 			}
+		
 	}
 
 	&__h2 {
@@ -54,6 +70,9 @@
 		text-align: center;
 		@media all and (min-width: 768px) {
 			
+			font-size: 30px;
+		}
+		@media all and (min-width: 1200px) {
 			font-size: 50px;
 		}
 	}
@@ -65,6 +84,10 @@
 		line-height: 28px;
 		@media all and (min-width: 768px) {
 			
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+		@media all and (min-width: 1200px) {
 			font-size: 22px;
 		}
 	}
@@ -105,11 +128,15 @@
 	font-size: 12px;
 	@media all and (min-width: 768px) {
 		margin-top: 41px;
-		margin-bottom: 60px;
+		margin-bottom: 0px;
 		padding: 10px 30px 10px 30px;
-		font-size: 16px;
+		font-size: 20px;
 
 	}
+	@media all and (min-width: 1200px) {
+		margin-bottom: 60px;
+	}
+	
 	&:hover {
 		background-color: $color-third;
 		transform: scale(1.1, 1.1);

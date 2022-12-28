@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: center;
 	gap: 20px;
+    margin: 20px;
     @media all and (min-width: 768px) {
         gap: 100px;
 	}
@@ -74,6 +75,7 @@ text-align: center;
 .text_relations{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
@@ -82,9 +84,12 @@ text-align: center;
     line-height: 40px;
     font-family: $font-second;
     @media all and (min-width: 768px) {
-        margin-left: 500px;
-        margin-right: 500px;
+      
 	}
+    @media all and (min-width: 1200px) {
+        margin-left: 30%;
+        margin-right:30%;
+    }
     }
     
     .select{
