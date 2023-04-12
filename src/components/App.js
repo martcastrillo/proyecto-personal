@@ -21,7 +21,9 @@ import Acuario from "./Horoscopes/Acuario";
 import Virgo from "./Horoscopes/Virgo";
 import Leo from "./Horoscopes/Leo";
 import Geminis from "./Horoscopes/Geminis";
+import data from "../services/data.json"
 function App() {
+	console.log(data);
 	return (
 		<>
 			<ul className="nav">
@@ -96,8 +98,8 @@ function App() {
 				<Route path="/acuario" element={<Acuario />}></Route>
 				<Route path="/piscis" element={<Piscis />}></Route>
 			</Routes>
-			<footer class="page__footer">
-				<p class="footer">&copy; Marta Castrillo 2022</p>
+			<footer className="page__footer">
+				<p className="footer">&copy; Marta Castrillo 2023</p>
 			</footer>
 		</>
 	);
