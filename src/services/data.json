@@ -1,514 +1,122 @@
- [
+  [
       {
         "id": 1,
-        "name": "Rick Sanchez",
-        "status": "Alive",
-        "species": "Human",
-        "type": "",
-        "gender": "Male",
-        "origin": {
-          "name": "Earth (C-137)",
-          "url": "https://rickandmortyapi.com/api/location/1"
-        },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/1.jpeg",
-        "episode": [
-          "https://rickandmortyapi.com/api/episode/1",
-          "https://rickandmortyapi.com/api/episode/2",
-          "https://rickandmortyapi.com/api/episode/3",
-          "https://rickandmortyapi.com/api/episode/4",
-          "https://rickandmortyapi.com/api/episode/5",
-          "https://rickandmortyapi.com/api/episode/6",
-          "https://rickandmortyapi.com/api/episode/7",
-          "https://rickandmortyapi.com/api/episode/8",
-          "https://rickandmortyapi.com/api/episode/9",
-          "https://rickandmortyapi.com/api/episode/10",
-          "https://rickandmortyapi.com/api/episode/11",
-          "https://rickandmortyapi.com/api/episode/12",
-          "https://rickandmortyapi.com/api/episode/13",
-          "https://rickandmortyapi.com/api/episode/14",
-          "https://rickandmortyapi.com/api/episode/15",
-          "https://rickandmortyapi.com/api/episode/16",
-          "https://rickandmortyapi.com/api/episode/17",
-          "https://rickandmortyapi.com/api/episode/18",
-          "https://rickandmortyapi.com/api/episode/19",
-          "https://rickandmortyapi.com/api/episode/20",
-          "https://rickandmortyapi.com/api/episode/21",
-          "https://rickandmortyapi.com/api/episode/22",
-          "https://rickandmortyapi.com/api/episode/23",
-          "https://rickandmortyapi.com/api/episode/24",
-          "https://rickandmortyapi.com/api/episode/25",
-          "https://rickandmortyapi.com/api/episode/26",
-          "https://rickandmortyapi.com/api/episode/27",
-          "https://rickandmortyapi.com/api/episode/28",
-          "https://rickandmortyapi.com/api/episode/29",
-          "https://rickandmortyapi.com/api/episode/30",
-          "https://rickandmortyapi.com/api/episode/31"
-        ],
-        "url": "https://rickandmortyapi.com/api/character/1",
-        "created": "2017-11-04T18:48:46.250Z"
+        "name": "Cáncer",
+        "type": "agua",
+        "image_1": "../images/horoscope-icon/cancer.png",
+        "image_2": "../images/marco/cancermarco.png",
+               "date_start": "21 de junio",
+       "date_end": "22 de julio",
+        "description": "Los Cáncer son personas complicadas de clasificar, si se atiende a su carácter. Los hay tímidos y aburridos , pero también brillantes y famosos . De hecho, algunos presentan una alta capacidad literaria y artística, gracias a su capacidad imaginativa. Les encanta ser extrovertidos, pero también tienen tendencia a retraerse. El hogar es lo más importante para ellos, por la seguridad y el calor que encuentran en él."
       },
       {
         "id": 2,
-        "name": "Morty Smith",
-        "status": "Alive",
-        "species": "Human",
-        "type": "",
-        "gender": "Male",
-        "origin": {
-          "name": "Earth (C-137)",
-          "url": "https://rickandmortyapi.com/api/location/1"
-        },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/2.jpeg",
-        "episode": [
-          "https://rickandmortyapi.com/api/episode/1",
-          "https://rickandmortyapi.com/api/episode/2",
-          "https://rickandmortyapi.com/api/episode/3",
-          "https://rickandmortyapi.com/api/episode/4",
-          "https://rickandmortyapi.com/api/episode/5",
-          "https://rickandmortyapi.com/api/episode/6",
-          "https://rickandmortyapi.com/api/episode/7",
-          "https://rickandmortyapi.com/api/episode/8",
-          "https://rickandmortyapi.com/api/episode/9",
-          "https://rickandmortyapi.com/api/episode/10",
-          "https://rickandmortyapi.com/api/episode/11",
-          "https://rickandmortyapi.com/api/episode/12",
-          "https://rickandmortyapi.com/api/episode/13",
-          "https://rickandmortyapi.com/api/episode/14",
-          "https://rickandmortyapi.com/api/episode/15",
-          "https://rickandmortyapi.com/api/episode/16",
-          "https://rickandmortyapi.com/api/episode/17",
-          "https://rickandmortyapi.com/api/episode/18",
-          "https://rickandmortyapi.com/api/episode/19",
-          "https://rickandmortyapi.com/api/episode/20",
-          "https://rickandmortyapi.com/api/episode/21",
-          "https://rickandmortyapi.com/api/episode/22",
-          "https://rickandmortyapi.com/api/episode/23",
-          "https://rickandmortyapi.com/api/episode/24",
-          "https://rickandmortyapi.com/api/episode/25",
-          "https://rickandmortyapi.com/api/episode/26",
-          "https://rickandmortyapi.com/api/episode/27",
-          "https://rickandmortyapi.com/api/episode/28",
-          "https://rickandmortyapi.com/api/episode/29",
-          "https://rickandmortyapi.com/api/episode/30",
-          "https://rickandmortyapi.com/api/episode/31"
-        ],
-        "url": "https://rickandmortyapi.com/api/character/2",
-        "created": "2017-11-04T18:50:21.651Z"
+        "name": "Escorpio",
+        "type": "agua",
+        "image_1": "../images/horoscope-icon/escorpio.png",
+        "image_2": "../images/marco/escorpiomarco.png",
+                "date_start": "23 de octubre",
+       "date_end": "21 de noviembre",
+        "description": "Un Escorpio es una persona tranquila que parece alejada de la realidad, aunque nunca dejan de observar todo a su alrededor con el ojo crítico. Tienen mucha fuerza de voluntad y muestran tenacidad , pero también les afecta al estado de ánimo las circunstancias que les rodean. Suelen ser críticos y esto les lleva, a veces, a ser algo resentidos con los demás. Sin embargo son excelentes amigos de aquellos a los que consideran que merecen su respeto."
       },
       {
         "id": 3,
-        "name": "Summer Smith",
-        "status": "Alive",
-        "species": "Human",
-        "type": "",
-        "gender": "Female",
-        "origin": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/3.jpeg",
-        "episode": [
-          "https://rickandmortyapi.com/api/episode/6",
-          "https://rickandmortyapi.com/api/episode/7",
-          "https://rickandmortyapi.com/api/episode/8",
-          "https://rickandmortyapi.com/api/episode/9",
-          "https://rickandmortyapi.com/api/episode/10",
-          "https://rickandmortyapi.com/api/episode/11",
-          "https://rickandmortyapi.com/api/episode/12",
-          "https://rickandmortyapi.com/api/episode/14",
-          "https://rickandmortyapi.com/api/episode/15",
-          "https://rickandmortyapi.com/api/episode/16",
-          "https://rickandmortyapi.com/api/episode/17",
-          "https://rickandmortyapi.com/api/episode/18",
-          "https://rickandmortyapi.com/api/episode/19",
-          "https://rickandmortyapi.com/api/episode/20",
-          "https://rickandmortyapi.com/api/episode/21",
-          "https://rickandmortyapi.com/api/episode/22",
-          "https://rickandmortyapi.com/api/episode/23",
-          "https://rickandmortyapi.com/api/episode/24",
-          "https://rickandmortyapi.com/api/episode/25",
-          "https://rickandmortyapi.com/api/episode/26",
-          "https://rickandmortyapi.com/api/episode/27",
-          "https://rickandmortyapi.com/api/episode/29",
-          "https://rickandmortyapi.com/api/episode/30",
-          "https://rickandmortyapi.com/api/episode/31"
-        ],
-        "url": "https://rickandmortyapi.com/api/character/3",
-        "created": "2017-11-04T19:09:56.428Z"
+        "name": "Piscis",
+        "type": "agua",
+        "image_1": "../images/horoscope-icon/piscis.png",
+        "image_2": "../images/marco/piscismarco.png",
+               "date_start": "19 de febrero",
+       "date_end": "20 de marzo",
+        "description": "Son tranquilos, amables y pacientes. Los Piscis son sensibles a los sentimientos de los demás y responden con simpatía al tacto y al sufrimiento. Son queridos por el resto de los signos, debido al carácter afable, cariñoso y amable. Les preocupan más los problemas de los demás que los suyos propios. Eso sí, les cuesta mucho luchar por el poder establecido. Son creativos y artísticos.",
       },
       {
         "id": 4,
-        "name": "Beth Smith",
-        "status": "Alive",
-        "species": "Human",
-        "type": "",
-        "gender": "Female",
-        "origin": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/4.jpeg",
-        "episode": [
-          "https://rickandmortyapi.com/api/episode/6",
-          "https://rickandmortyapi.com/api/episode/7",
-          "https://rickandmortyapi.com/api/episode/8",
-          "https://rickandmortyapi.com/api/episode/9",
-          "https://rickandmortyapi.com/api/episode/10",
-          "https://rickandmortyapi.com/api/episode/11",
-          "https://rickandmortyapi.com/api/episode/12",
-          "https://rickandmortyapi.com/api/episode/14",
-          "https://rickandmortyapi.com/api/episode/15",
-          "https://rickandmortyapi.com/api/episode/16",
-          "https://rickandmortyapi.com/api/episode/18",
-          "https://rickandmortyapi.com/api/episode/19",
-          "https://rickandmortyapi.com/api/episode/20",
-          "https://rickandmortyapi.com/api/episode/21",
-          "https://rickandmortyapi.com/api/episode/22",
-          "https://rickandmortyapi.com/api/episode/23",
-          "https://rickandmortyapi.com/api/episode/24",
-          "https://rickandmortyapi.com/api/episode/25",
-          "https://rickandmortyapi.com/api/episode/26",
-          "https://rickandmortyapi.com/api/episode/27",
-          "https://rickandmortyapi.com/api/episode/28",
-          "https://rickandmortyapi.com/api/episode/29",
-          "https://rickandmortyapi.com/api/episode/30",
-          "https://rickandmortyapi.com/api/episode/31"
-        ],
-        "url": "https://rickandmortyapi.com/api/character/4",
-        "created": "2017-11-04T19:22:43.665Z"
+        "name": "Aries",
+        "type": "fire",
+        "image_1": "../images/horoscope-icon/aries.png",
+        "image_2": "../images/marco/ariesmarco.png",
+                           "date_start": "21 de marzo",
+       "date_end": "19 de abril",
+        "description": "Los Aries son personas llenas de energía y entusiasmo por la vida. Aventureros por naturaleza, les encantan los retos, la libertad y las nuevas ideas, por lo que nunca tienen miedo a los comienzos o nuevas etapas. Son líderes y prefieren dar órdenes a recibirlas. La energía que emana de ellos les lleva a ser algo agresivos, tercos e inquietos. Si te cruzas con alguno de ellos ten cuidado de no ofenderlos, ya que pueden sentirse así de forma muy fácil. Es complicado hacer las paces con ellos. Aries es el primer signo del Zodiaco, de ahí que sean líderes y les guste empezar nuevos retos. Siempre lucharán si creen que la causa merece la pena."
       },
       {
         "id": 5,
-        "name": "Jerry Smith",
-        "status": "Alive",
-        "species": "Human",
-        "type": "",
-        "gender": "Male",
-        "origin": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/5.jpeg",
-        "episode": [
-          "https://rickandmortyapi.com/api/episode/6",
-          "https://rickandmortyapi.com/api/episode/7",
-          "https://rickandmortyapi.com/api/episode/8",
-          "https://rickandmortyapi.com/api/episode/9",
-          "https://rickandmortyapi.com/api/episode/10",
-          "https://rickandmortyapi.com/api/episode/11",
-          "https://rickandmortyapi.com/api/episode/12",
-          "https://rickandmortyapi.com/api/episode/13",
-          "https://rickandmortyapi.com/api/episode/14",
-          "https://rickandmortyapi.com/api/episode/15",
-          "https://rickandmortyapi.com/api/episode/16",
-          "https://rickandmortyapi.com/api/episode/18",
-          "https://rickandmortyapi.com/api/episode/19",
-          "https://rickandmortyapi.com/api/episode/20",
-          "https://rickandmortyapi.com/api/episode/21",
-          "https://rickandmortyapi.com/api/episode/22",
-          "https://rickandmortyapi.com/api/episode/23",
-          "https://rickandmortyapi.com/api/episode/26",
-          "https://rickandmortyapi.com/api/episode/29",
-          "https://rickandmortyapi.com/api/episode/30",
-          "https://rickandmortyapi.com/api/episode/31"
-        ],
-        "url": "https://rickandmortyapi.com/api/character/5",
-        "created": "2017-11-04T19:26:56.301Z"
+        "name": "Leo",
+        "type": "fire",
+        "image_1": "../images/horoscope-icon/leo.png",
+        "image_2": "../images/marco/leomarco.png",
+                      "date_start": "23 de julio",
+       "date_end": "22 de agosto",
+        "description": "Es el signo más dominante del Zodiaco. Es creativo y extrovertido. Tienen ambición, fuerza, valentía y seguridad en sus capacidades. No temen a los obstáculos y suelen ser buenos, idealistas e inteligentes. Para los Leo, el lujo y el poder están entre sus gustos. Asimismo, son capaces de utilizar trucos y mentiras para desacreditar a sus enemigos. A veces, también pueden caer en la superioridad y la prepotencia."
       },
       {
         "id": 6,
-        "name": "Abadango Cluster Princess",
-        "status": "Alive",
-        "species": "Alien",
-        "type": "",
-        "gender": "Female",
-        "origin": {
-          "name": "Abadango",
-          "url": "https://rickandmortyapi.com/api/location/2"
-        },
-        "location": {
-          "name": "Abadango",
-          "url": "https://rickandmortyapi.com/api/location/2"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/6.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/27"],
-        "url": "https://rickandmortyapi.com/api/character/6",
-        "created": "2017-11-04T19:50:28.250Z"
+        "name": "Sagitario",
+        "type": "fire",
+        "image_1": "../images/horoscope-icon/sagitario.png",
+        "image_2": "../images/marco/sagitariomarco.png",
+                      "date_start": "22 de noviembre",
+       "date_end": "21 de diciembre",
+        "description": "2017-11-04T18:48:46.250Z"
       },
       {
         "id": 7,
-        "name": "Abradolf Lincler",
-        "status": "unknown",
-        "species": "Human",
-        "type": "Genetic experiment",
-        "gender": "Male",
-        "origin": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "location": {
-          "name": "Testicle Monster Dimension",
-          "url": "https://rickandmortyapi.com/api/location/21"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/7.jpeg",
-        "episode": [
-          "https://rickandmortyapi.com/api/episode/10",
-          "https://rickandmortyapi.com/api/episode/11"
-        ],
-        "url": "https://rickandmortyapi.com/api/character/7",
-        "created": "2017-11-04T19:59:20.523Z"
-      },
-      {
+        "name": "Capricornio",
+        "type": "earth",
+        "image_1": "../images/horoscope-icon/capricornio.png",
+        "image_2": "../images/marco/capricorniomarco.png",
+               "date_start": "22 de diciembre",
+       "date_end": "19 de enero",
+        "description": "Sagitario es el signo más positivo de todo el Zodiaco . Cuando las cosas se ponen complicadas un Sagitario siempre sacará la mejor versión y se olvidará de la negatividad. Entre sus mejores características están las de ser buenos organizadores y abarcar nuevos proyectos y aprender cosas nuevas. El lado negativo es el genio que pueden mostrar a veces, sobre todo cuando detectan que alguien no va a su ritmo. Muchas veces también son exigentes con los demás , porque cuando un objetivo se les pone enfrente no dudan en sacrificarse."
+      },{
         "id": 8,
-        "name": "Adjudicator Rick",
-        "status": "Dead",
-        "species": "Human",
-        "type": "",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Citadel of Ricks",
-          "url": "https://rickandmortyapi.com/api/location/3"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/8.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/28"],
-        "url": "https://rickandmortyapi.com/api/character/8",
-        "created": "2017-11-04T20:03:34.737Z"
+        "name": "Tauro",
+        "type": "earth",
+        "image_1": "../images/horoscope-icon/tauro.png",
+        "image_2": "../images/marco/tauromarco.png",
+               "date_start": "20 de abril",
+       "date_end": "20 de mayo",
+        "description": "Un Tauro es una persona que tiene una gran fuerza de voluntad, es práctico y decidido en la toma de decisiones. Suelen ser personas estables y conservadoras y no dudan en seguir a un líder si les despierta confianza. Son gente de paz, por lo que lo normal es que respeten las leyes y normas. El hecho de que tengan entusiasmo por la rutina y la continuidad hace que sean algo tozudos y de ideas fijas. No suelen hundirse en las dificultades y siempre salen adelante. Amantes de la buena comida, bebida y distintos placeres de la vida deben tener cuidado con los excesos."
       },
       {
         "id": 9,
-        "name": "Agency Director",
-        "status": "Dead",
-        "species": "Human",
-        "type": "",
-        "gender": "Male",
-        "origin": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/9.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/24"],
-        "url": "https://rickandmortyapi.com/api/character/9",
-        "created": "2017-11-04T20:06:54.976Z"
+        "name": "Virgo",
+        "type": "earth",
+        "image_1": "../images/horoscope-icon/virgo.png",
+        "image_2": "../images/marco/virgomarco.png",
+      
+               "date_start": "23 de agosto",
+       "date_end": "22 de septiembre",
+        "description": "Único signo zodiacal representado por una mujer. Los Virgo son observadores, pacientes y les cuesta hacer amigos por su carácter frío que muestran a veces. A pesar de ello tienen encanto y suelen ayudar a los demás cuando se presenta un problema. El método, el estudio y la lógica predominan en ellos, por eso les gusta aprender siempre, así como tener un análisis de la situación. Tanto se paran a pensar que a veces pueden retrasar la conclusión de los proyectos más complicados que llevan a cabo. Son intuitivos y capaces de ver todos los lados de un argumento."
       },
       {
         "id": 10,
-        "name": "Alan Rails",
-        "status": "Dead",
-        "species": "Human",
-        "type": "Superhuman (Ghost trains summoner)",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Worldender's lair",
-          "url": "https://rickandmortyapi.com/api/location/4"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/10.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/25"],
-        "url": "https://rickandmortyapi.com/api/character/10",
-        "created": "2017-11-04T20:19:09.017Z"
+        "name": "Libra",
+        "type": "air",
+        "image_1": "../images/horoscope-icon/libra.png",
+        "image_2": "../images/marco/libramarco.png",
+               "date_start": "23 de septiembre",
+       "date_end": "22 de octubre",
+        "description": "El signo del Zodiaco más civilizado . Tienen encanto, elegancia, buen gusto y son amables y pacíficos, por lo que no es raro que ante conflictos sean imparciales y muestren su rechazo a ellos. Valoran el esfuerzo de los demás y les gusta trabajar en equipo. El lado negativo de Libra es que de lo curiosos que son a veces se entrometen en la vida de los demás . Están en contra de la rutina, y una vez que tengan una opinión de algo no les gusta que se les contradiga."
       },
       {
         "id": 11,
-        "name": "Albert Einstein",
-        "status": "Dead",
-        "species": "Human",
-        "type": "",
-        "gender": "Male",
-        "origin": {
-          "name": "Earth (C-137)",
-          "url": "https://rickandmortyapi.com/api/location/1"
-        },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/11.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/12"],
-        "url": "https://rickandmortyapi.com/api/character/11",
-        "created": "2017-11-04T20:20:20.965Z"
+        "name": "Géminis",
+        "type": "air",
+        "image_1": "../images/horoscope-icon/geminis.png",
+        "image_2": "../images/marco/geminismarco.png",
+              "date_start": "21 de mayo",
+       "date_end": "20 de junio",
+        "description": "Carácter doble, complejo y contradictorio es lo que mejor define a un Géminis. Al contrario que los Aries, los Géminis empiezan con entusiasmo nuevas aventuras, pero tienden a aburrirse rápido por la falta de constancia. Son personas cariñosas, amables y generosas , aunque tienen algo de mentirosos si quieren obtener algo. Eso sí, sin perder el encanto. Suelen ser personas que se desaniman con facilidad ante las dificultades, por lo que necesitan escuchar halagos y recibir atención. Inteligencia y capacidad para aprender la tienen, aunque suelen aburrirse en el proceso de aprendizaje."
       },
       {
         "id": 12,
-        "name": "Alexander",
-        "status": "Dead",
-        "species": "Human",
-        "type": "",
-        "gender": "Male",
-        "origin": {
-          "name": "Earth (C-137)",
-          "url": "https://rickandmortyapi.com/api/location/1"
-        },
-        "location": {
-          "name": "Anatomy Park",
-          "url": "https://rickandmortyapi.com/api/location/5"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/12.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/3"],
-        "url": "https://rickandmortyapi.com/api/character/12",
-        "created": "2017-11-04T20:32:33.144Z"
-      },
-      {
-        "id": 13,
-        "name": "Alien Googah",
-        "status": "unknown",
-        "species": "Alien",
-        "type": "",
-        "gender": "unknown",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/13.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/31"],
-        "url": "https://rickandmortyapi.com/api/character/13",
-        "created": "2017-11-04T20:33:30.779Z"
-      },
-      {
-        "id": 14,
-        "name": "Alien Morty",
-        "status": "unknown",
-        "species": "Alien",
-        "type": "",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Citadel of Ricks",
-          "url": "https://rickandmortyapi.com/api/location/3"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/14.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/10"],
-        "url": "https://rickandmortyapi.com/api/character/14",
-        "created": "2017-11-04T20:51:31.373Z"
-      },
-      {
-        "id": 15,
-        "name": "Alien Rick",
-        "status": "unknown",
-        "species": "Alien",
-        "type": "",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Citadel of Ricks",
-          "url": "https://rickandmortyapi.com/api/location/3"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/15.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/10"],
-        "url": "https://rickandmortyapi.com/api/character/15",
-        "created": "2017-11-04T20:56:13.215Z"
-      },
-      {
-        "id": 16,
-        "name": "Amish Cyborg",
-        "status": "Dead",
-        "species": "Alien",
-        "type": "Parasite, Cyborg",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Earth (Replacement Dimension)",
-          "url": "https://rickandmortyapi.com/api/location/20"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/16.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/15"],
-        "url": "https://rickandmortyapi.com/api/character/16",
-        "created": "2017-11-04T21:12:45.235Z"
-      },
-      {
-        "id": 17,
-        "name": "Annie",
-        "status": "Alive",
-        "species": "Human",
-        "type": "",
-        "gender": "Female",
-        "origin": {
-          "name": "Earth (C-137)",
-          "url": "https://rickandmortyapi.com/api/location/1"
-        },
-        "location": {
-          "name": "Anatomy Park",
-          "url": "https://rickandmortyapi.com/api/location/5"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/17.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/3"],
-        "url": "https://rickandmortyapi.com/api/character/17",
-        "created": "2017-11-04T22:21:24.481Z"
-      },
-      {
-        "id": 18,
-        "name": "Antenna Morty",
-        "status": "Alive",
-        "species": "Human",
-        "type": "Human with antennae",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Citadel of Ricks",
-          "url": "https://rickandmortyapi.com/api/location/3"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/18.jpeg",
-        "episode": [
-          "https://rickandmortyapi.com/api/episode/10",
-          "https://rickandmortyapi.com/api/episode/28"
-        ],
-        "url": "https://rickandmortyapi.com/api/character/18",
-        "created": "2017-11-04T22:25:29.008Z"
-      },
-      {
-        "id": 19,
-        "name": "Antenna Rick",
-        "status": "unknown",
-        "species": "Human",
-        "type": "Human with antennae",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": { "name": "unknown", "url": "" },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/19.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/10"],
-        "url": "https://rickandmortyapi.com/api/character/19",
-        "created": "2017-11-04T22:28:13.756Z"
-      },
-      {
-        "id": 20,
-        "name": "Ants in my Eyes Johnson",
-        "status": "unknown",
-        "species": "Human",
-        "type": "Human with ants in his eyes",
-        "gender": "Male",
-        "origin": { "name": "unknown", "url": "" },
-        "location": {
-          "name": "Interdimensional Cable",
-          "url": "https://rickandmortyapi.com/api/location/6"
-        },
-        "image": "https://raw.githubusercontent.com/Adalab/rick-y-morty/master/assets/img/20.jpeg",
-        "episode": ["https://rickandmortyapi.com/api/episode/8"],
-        "url": "https://rickandmortyapi.com/api/character/20",
-        "created": "2017-11-04T22:34:53.659Z"
+        "name": "Acuario",
+        "type": "air",
+        "image_1": "../images/horoscope-icon/acuario.png",
+        "image_2": "../images/marco/acuariomarco.png",
+        "date_start": "20 de enero",
+       "date_end": "18 de febrero",
+        "description": "Los Acuario tienen una personalidad fuerte y atractiva, pero hay dos tipos : los que son tímidos, sensibles y pacientes; y los que son exuberantes, vivos y frívolos. Eso sí, ambos son honestos y no dudarán en cambiar su opinión si estaban equivocados. Es el signo más tolerante de los doce, pero tampoco les gusta pertenecer a la multitud. Muchas veces sienten la necesidad de retirarse para meditar. No hacen amigos con facilidad, a pesar de la personalidad abierta que tienen."
       }
     ]
