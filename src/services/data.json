@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Cáncer",
+    "link": "/Cáncer",
     "type": "agua",
     "image_1": "https://user-images.githubusercontent.com/112553001/231838737-776e9e68-5b95-408c-8c46-21c450ffb9d1.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844060-7bd410a7-1c78-4f06-96c8-027c43b8b8b8.png",
@@ -13,6 +14,7 @@
   {
     "id": 2,
     "name": "Escorpio",
+    "link": "/Escorpio",
     "type": "agua",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839003-266d83b5-b084-4210-ad77-f832ade36982.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844148-850715ad-b769-4cf1-a531-45b589b33298.png",
@@ -24,6 +26,7 @@
   {
     "id": 3,
     "name": "Piscis",
+    "link": "/Piscis",
     "type": "agua",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839078-5df29152-3060-49de-b7f2-a9fc4cb821cc.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844239-3358808e-eb28-47df-9953-c38d88573d3a.png",   
@@ -35,6 +38,7 @@
   {
     "id": 4,
     "name": "Aries",
+    "link": "/Aries",
     "type": "fire",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839146-ed1003d6-e833-462d-9fa7-84eb3e27d8b7.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844380-a242901d-eac2-4510-be53-684ddab67a73.png",
@@ -46,6 +50,7 @@
   {
     "id": 5,
     "name": "Leo",
+    "link": "/Leo",
     "type": "fire",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839205-59947f71-1e21-487e-bced-f54b76cf55ba.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844460-ddf0ae2d-6144-40ae-b43b-f50adb6c751e.png",
@@ -57,6 +62,7 @@
   {
     "id": 6,
     "name": "Sagitario",
+    "link": "/Sagitario",
     "type": "fire",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839257-b8932e45-57ea-4ffa-ac06-1e60cda8c0cb.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844557-440c3689-602f-4ee1-9a28-2a6c562176a6.png",
@@ -68,6 +74,7 @@
   {
     "id": 7,
     "name": "Capricornio",
+    "link": "/Capricornio",
     "type": "earth",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839350-5f83fee4-9a36-4bce-9f55-10252c069261.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844632-17885465-eb09-4eff-9776-f936c305918a.png",
@@ -79,6 +86,7 @@
   {
     "id": 8,
     "name": "Tauro",
+    "link": "/Tauro",
     "type": "earth",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839433-508a4256-8a7e-4f7c-a518-eb2d5bc49ab0.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231844735-4aa1405a-3a49-4d09-8063-0af7fdcd0013.png",
@@ -90,6 +98,7 @@
   {
     "id": 9,
     "name": "Virgo",
+    "link": "/Virgo",
     "type": "earth",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839519-99e1a178-8695-4122-992a-d2dda5b00dbd.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231845123-6ca8cdcf-b2a3-40b0-a3f1-8d7b32c73d36.png",
@@ -101,6 +110,7 @@
   {
     "id": 10,
     "name": "Libra",
+    "link": "/Libra",
     "type": "air",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839561-45337606-d289-4537-bd23-2d885af69248.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231845217-d87a7064-6448-47b2-ac4c-14f922fc96df.png",
@@ -112,6 +122,7 @@
   {
     "id": 11,
     "name": "Géminis",
+    "link": "/Géminis",
     "type": "air",
     "image_1": "https://user-images.githubusercontent.com/112553001/231839643-df49b499-dc2c-4196-a352-bea748c6aa0a.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231845951-6bf3759c-7fe8-46e5-88e9-e1b9d930fa76.png",
@@ -123,6 +134,7 @@
   {
     "id": 12,
     "name": "Acuario",
+    "link": "/Acuario",
     "type": "air",
     "image_1": "https://user-images.githubusercontent.com/112553001/231838414-ab6950aa-4445-4cbb-b03f-9086d79cff9d.png",
     "image_2": "https://user-images.githubusercontent.com/112553001/231846088-d97a45fc-3f86-49cb-ac4b-4727ff51fba7.png",
