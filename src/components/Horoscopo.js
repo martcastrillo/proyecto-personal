@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-/* import tauro from "../images/horoscope-icon/tauro.png";
+import tauro from "../images/horoscope-icon/tauro.png";
 import leo from "../images/horoscope-icon/leo.png";
 import escorpio from "../images/horoscope-icon/escorpio.png";
 import geminis from "../images/horoscope-icon/geminis.png";
@@ -10,19 +10,9 @@ import capricornio from "../images/horoscope-icon/capricornio.png";
 import acuario from "../images/horoscope-icon/acuario.png";
 import cancer from "../images/horoscope-icon/cancer.png";
 import virgo from "../images/horoscope-icon/virgo.png";
-import sagitario from "../images/horoscope-icon/sagitario.png"; */
-import datadev from "../services/data.json";
-const Inicio = () => {
-	const htmlData = datadev.map((horoscope, index) => {
-		
-		return (
-			<Link to="/Aries" className="onehoroscope" key={index}>
-					<p className="onehoroscope__name">{horoscope.name}</p>
-					<img className="onehoroscope__img" src={horoscope.image_1} alt="" />
-				</Link>
+import sagitario from "../images/horoscope-icon/sagitario.png";
 
-		)
-	});
+const Inicio = () => {
 
 	return (
 		<div className="background-main">
@@ -37,8 +27,8 @@ const Inicio = () => {
 				<label htmlFor=""> Agua</label>
 			</form>
 			<div className="mainhoroscope">
-				{htmlData}
-				{/* <Link to="/Aries" className="onehoroscope">
+			
+			 <Link to="/Aries" className="onehoroscope">
 					<p className="onehoroscope__name">aries</p>
 					<img className="onehoroscope__img" src={aries} alt="" />
 				</Link>
@@ -85,7 +75,7 @@ const Inicio = () => {
 				<Link to="/Piscis" className="onehoroscope">
 					<p className="onehoroscope__name">piscis</p>
 					<img className="onehoroscope__img" src={piscis} alt="" />
-				</Link> */}
+				</Link> 
 			</div>
 		
 		</div>
