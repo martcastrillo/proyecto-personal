@@ -1,40 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.027ffcce.css",
-    "main.js": "./static/js/main.84cde721.js",
+    "main.css": "./static/css/main.15facedf.css",
+    "main.js": "./static/js/main.d90f1982.js",
     "static/media/famous-frame.png": "./static/media/famous-frame.6cdef3e01bd3f3df4ced.png",
     "static/media/piscismarco.png": "./static/media/piscismarco.33e41a8d2b2505813946.png",
     "static/media/cancermarco.png": "./static/media/cancermarco.a60f031106e670b93db1.png",
     "static/media/escorpiomarco.png": "./static/media/escorpiomarco.98051050d5200ebcf9f2.png",
-    "static/media/geminis.png": "./static/media/geminis.287a089ccc18b423db35.png",
-    "static/media/piscis.png": "./static/media/piscis.0412cb70dce74ef7ab3e.png",
     "static/media/Fondo.png": "./static/media/Fondo.0010c301d8b4ce25ce28.png",
-    "static/media/sagitario.png": "./static/media/sagitario.d94379335831c056184c.png",
     "static/media/capricorniomarco.png": "./static/media/capricorniomarco.7e188150a6070d0095ec.png",
     "static/media/ariesmarco.png": "./static/media/ariesmarco.26c7eceda7844c12506d.png",
     "static/media/geminismarco.png": "./static/media/geminismarco.5956c383b5c89550eeac.png",
     "static/media/leomarco.png": "./static/media/leomarco.ec3a74ac76778ed4e49f.png",
-    "static/media/escorpio.png": "./static/media/escorpio.a32e06eec1a812df306d.png",
-    "static/media/leo.png": "./static/media/leo.ff558552068307b93b27.png",
     "static/media/libramarco.png": "./static/media/libramarco.d3dca233164b1c2848d9.png",
     "static/media/sagitariomarco.png": "./static/media/sagitariomarco.bc4150d74f24da2719f7.png",
     "static/media/tauromarco.png": "./static/media/tauromarco.af061bf6c0b85c49c8b5.png",
     "static/media/virgomarco.png": "./static/media/virgomarco.f12b8f410600970d69ab.png",
-    "static/media/acuario.png": "./static/media/acuario.e5b0b1c01ff34e160209.png",
-    "static/media/capricornio.png": "./static/media/capricornio.dbdc7cfacf06e8345a09.png",
-    "static/media/aries.png": "./static/media/aries.c3e76fd0ec286a068023.png",
-    "static/media/cancer.png": "./static/media/cancer.a3854880a1259afca7d7.png",
-    "static/media/tauro.png": "./static/media/tauro.946834a624adf501e269.png",
-    "static/media/libra.png": "./static/media/libra.b5d8288b9b81d19586ba.png",
-    "static/media/virgo.png": "./static/media/virgo.0a13a01027e4ac716d8e.png",
     "static/media/handright.png": "./static/media/handright.58409d271e9e4e5727f9.png",
     "static/media/handleft.png": "./static/media/handleft.de1b8e14be7098d65b82.png",
     "index.html": "./index.html",
-    "main.027ffcce.css.map": "./static/css/main.027ffcce.css.map",
-    "main.84cde721.js.map": "./static/js/main.84cde721.js.map"
+    "main.15facedf.css.map": "./static/css/main.15facedf.css.map",
+    "main.d90f1982.js.map": "./static/js/main.d90f1982.js.map"
   },
   "entrypoints": [
-    "static/css/main.027ffcce.css",
-    "static/js/main.84cde721.js"
+    "static/css/main.15facedf.css",
+    "static/js/main.d90f1982.js"
   ]
 }
