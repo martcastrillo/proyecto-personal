@@ -32,7 +32,7 @@ const Relaciones = () => {
 					<img src={virgo} alt="" className="relations__sign__image" />
 					<h2 className="relations__hrscpB">Virgo</h2>
 					<span className="selection">
-						<h2 className="rbutton"> Horóscopo Random</h2>
+						
 						<form action="">
 							<select className="select" name="" id="">
 							<option value="">Virgo</option>
@@ -50,6 +50,7 @@ const Relaciones = () => {
 						
 							</select>
 						</form>
+						<h2 className="rbutton"> Horóscopo Random</h2>
 					</span>
 				</span>
 			</div>
