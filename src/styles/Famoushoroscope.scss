@@ -5,89 +5,81 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 0px;
 	margin-top: 10px;
-	@media all and (min-width: 768px) {
-	
-		gap: 50px;
-		margin-top: 50px;
-	}
-
-	  @media all and (min-width: 1200px) {
+	gap: 50px;
+	margin-top: 80px;
+	@media all and (min-width: 1200px) {
 		flex-direction: row;
 		gap: 100px;
-	
-		
-	  }
+	}
 	&__divimage {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		
 		/* filter: drop-shadow(0px 0px 3px $color-golden); */
-		&__image{
-			width: 200px;
-			@media all and (min-width: 768px) {
-				width: 350px;
-			}
+		&__image {
+		
+	
+		
+				width: 700px;
+		
 			@media all and (min-width: 1200px) {
 				width: 400px;
 			}
-		
 		}
 	}
 
 	&__text {
 		align-self: center;
 		font-family: $font-second;
-		font-size: 10px;
-		
+	
+
 		color: $color-third;
 		text-align: justify;
 		flex-direction: column;
 		gap: 10px;
 		margin-bottom: 40px;
 		width: 300px;
-			@media all and (min-width: 768px) {
-			
-				gap: 20px;
-				width: 600px;
-				margin-bottom: 10px;
-			}
-			@media all and (min-width: 1200px) {
-			
-				
-				gap: 30px;
-				width: 600px;
-			}
-		
+
+			gap: 20px;
+			width: 600px;
+			margin-bottom: 10px;
+	
+		@media all and (min-width: 1200px) {
+			gap: 30px;
+			width: 600px;
+		}
 	}
 
 	&__h2 {
 		font-family: $font-main;
-		font-size: 30px;
+	
 		color: $color-second;
 		margin-bottom: 30px;
 		padding: 2px;
 		text-align: center;
-		@media all and (min-width: 768px) {
-			
-			font-size: 30px;
-		}
+	
+			font-size: 50px;
+	
 		@media all and (min-width: 1200px) {
 			font-size: 50px;
 		}
 	}
 	&__p {
 		font-family: $font-second;
-		font-size: 12px;
+	
 		color: $color-third;
-		margin-bottom: 30px;
-		line-height: 28px;
-		@media all and (min-width: 768px) {
-			
+	
+		line-height: 58px;
+	
 			font-size: 16px;
 			margin-bottom: 10px;
+
+			@media all and (max-width: 320px) {
+			background-color: red;
+			}
+		@media all and (max-width: 768px) {
+			background-color: rgb(98, 0, 255);
 		}
 	
 	}
@@ -102,26 +94,23 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap:20px;
+		gap: 20px;
 	}
 }
-
 
 .fbutton {
 	font-family: $font-main;
 
+	font-weight: 500;
+	border-radius: 22.5px;
 
-
-    font-weight: 500;
-    border-radius: 22.5px;
-
-      padding: 10px 30px 10px 30px;
-      margin-top: 0px;
-      margin-bottom: 10px;
-      margin-left: auto;
-      margin-right: auto;
-      color: $color-third;
-      background-color: $color-fifth;
+	padding: 10px 30px 10px 30px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	color: $color-third;
+	background-color: $color-fifth;
 
 	color: $color-third;
 	background-color: $color-fifth;
@@ -131,19 +120,18 @@
 		margin-bottom: 0px;
 		padding: 10px 30px 10px 30px;
 		font-size: 20px;
-
 	}
 	@media all and (min-width: 1200px) {
 		margin-bottom: 60px;
 	}
-	
+
 	&:hover {
 		background-color: $color-third;
 		transform: scale(1.1, 1.1);
 		transition: transform 2s;
 		color: $color-fifth;
-		box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px $color-golden, 0 0 10px $color-golden,
-		0 0 15px $color-golden, 0 0 20px $color-golden;
+		box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px $color-golden,
+			0 0 10px $color-golden, 0 0 15px $color-golden, 0 0 20px $color-golden;
 	}
 	&:not(:hover) {
 		transition: transform 2s;

@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "hsc1": "aries",
+      "hsc2": "aries",
+      "text": "Aries es un signo cardinal, y dos personas nacidas bajo este signo comparten esa característica en común; con ello, no es muy difícil deducir que presentan, más o menos, los mismos rasgos, para bien y para mal. Generalmente, aborrecen y aprecian las mismas cosas, así que, en principio, suelen congeniar estupendamente. En el ámbito profesional tienen talento para el mando, aunque cuando tienen que trabajar conjuntamente deben intentar no imponer su voluntad a la otra parte, pues si lo hacen se perderán en unas luchas de poder improductivas. No obstante, si se disponen a colaborar, resultará prácticamente imposible pararles los pies.
+
+      Una pareja formada por dos personas pertenecientes a este signo puede resultar una bendición o un castigo insufrible, depende. Suelen ser personas que odian la falsedad y cualquier otra clase de artimañas: juntas pueden conseguir ser muy felices, siempre y cuando, no intenten someterse mutuamente. Aries tiene como virtud la pureza, así que cada vez que se demuestran amor, saben que, sin duda, es sincero. El rasgo negativo de su relación es que, si se hieren, no se perdonarán ni olvidarán fácilmente. De cualquier modo, nadie como Aries sabe agradecer un gesto de amor; y si son dos, aún es mejor... Merece la pena ceder un poco a cambio de un alma gemela, ¿no?"
+    },
+    {
+        "id": 2,
+        "hsc1": "aries",
+        "hsc2": "tauro",
+        "text": "Aries y Tauro son un signo cardinal y fijo por ese orden, lo que supone que se encuentran en posiciones relativamente opuestas para todo. En general, si aprenden a ser complementos mutuos, su unión puede resultar muy provechosa, ya que lo que le falta a una parte, la otra lo suple completamente. En el ámbito profesional su actitud suele ser diferente; Aries es quien propone y Tauro quien dispone, por eso, y especialmente en este caso, su relación tiende a ser muy fructífera. Si Aries representa la fuerza y a las ideas renovadoras, Tauro representa a la parte juiciosa y racional de la asociación Esta es la esencia de su éxito.
+
+        Cuando se trata de amor, Aries y Tauro también son distintos; si estas dos personas se encuentran, es difícil que Tauro dé el primer paso, casi seguro que será el signo de Aries quien lo haga. Sin embargo, una vez que su relación se asiente, será Tauro quien propicie el desarrollo de la misma. En cualquier caso, su historia puede ser muy bonita y enriquecedora, Aries será la parte más activa de la unión y Tauro la más reflexiva. El riesgo que corren es que no se pongan de acuerdo y caigan en los reproches constantemente, pero si consiguen superar esto, su amor será tan grande como los contrastes que pueden existir en una relación tan rica y delicada como profunda."
+      },
+      {
+          "id": 3,
+          "hsc1": "aries",
+          "hsc2": "geminis",
+          "text": "Aries y Géminis son un signo fijo con un signo mutable respectivamente, y aunque son bien diferentes, cada cual suele suponer una suerte para la otra parte. Generalmente se entienden, ya que comparten una cualidad innata a su personalidad: no abandonan la niñez, por muchos años que cumplan. En el momento en el que estas dos personas deciden poner toda su voluntad y esfuerzo para conseguir una empresa en común, son una de las mejores asociaciones que pueden darse, pues poseen esas dosis de talento y pasión necesarias para alcanzar el éxito más clamoroso.
+
+          Cuando hablamos de amor, estos dos signos conocen como nadie el significado de esa palabra, pero quizá de una manera extraña para el resto de la gente. Si Aries quiere mandar, por Géminis perfecto, así no tiene que llevar sobre sus espaldas el peso de la responsabilidad que tanto molesta a este signo. Además, a Aries no le molesta el carácter voluble de Géminis, simplemente deja que vaya a su ritmo. Al mismo tiempo, estas dos personas gustan de mantener largas conversaciones en las que cada cual se pierde en sus fantasías, convirtiéndose en cómplices y acompañantes de la aventura que supone amar. ¡Felicidades!"
+        }
+]
