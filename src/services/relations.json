@@ -22,5 +22,447 @@
           "text": "Aries y Géminis son un signo fijo con un signo mutable respectivamente, y aunque son bien diferentes, cada cual suele suponer una suerte para la otra parte. Generalmente se entienden, ya que comparten una cualidad innata a su personalidad: no abandonan la niñez, por muchos años que cumplan. En el momento en el que estas dos personas deciden poner toda su voluntad y esfuerzo para conseguir una empresa en común, son una de las mejores asociaciones que pueden darse, pues poseen esas dosis de talento y pasión necesarias para alcanzar el éxito más clamoroso.
 
           Cuando hablamos de amor, estos dos signos conocen como nadie el significado de esa palabra, pero quizá de una manera extraña para el resto de la gente. Si Aries quiere mandar, por Géminis perfecto, así no tiene que llevar sobre sus espaldas el peso de la responsabilidad que tanto molesta a este signo. Además, a Aries no le molesta el carácter voluble de Géminis, simplemente deja que vaya a su ritmo. Al mismo tiempo, estas dos personas gustan de mantener largas conversaciones en las que cada cual se pierde en sus fantasías, convirtiéndose en cómplices y acompañantes de la aventura que supone amar. ¡Felicidades!"
+        },
+      {
+          "id": 4,
+          "hsc1": "aries",
+          "hsc2": "cancer",
+          "text": "Aries es un signo cardinal y Cáncer también, así que en su relación suelen existir algunas tiranteces. Generalmente son como polos paralelos que, en cuanto se ponen uno enfrente del otro, se repelen; parece que siguen una ley de naturaleza dispar, aunque también es susceptible de excepciones. Si es necesario que trabajen conjuntamente, -ya que si tienen la opción de decidir, posiblemente la rechacen-, la competencia se convertirá en su caballo de batalla, y nunca mejor dicho Son personas muy dominantes que no suelen ceder a favor de nadie, pero también adoran el éxito, así que puede existir una pequeña posibilidad de colaboración entre ambas.
+
+          En el plano sentimental se suelen comportar de la misma forma: siempre quieren que se haga lo que quieren, precisamente por eso, las disputas se sucederán. Además, son personas que tienen una facilidad pasmosa para herirse, y cuando Aries o Cáncer sienten daño, no olvidan, nunca. En cualquier caso, invariablemente hay salvedades que confirman la regla, y además, si dos personas se quieren de verdad, pueden salvar las distancias que las separan de la felicidad, por muy grandes que sean."
+        },
+        {
+            "id": 5,
+            "hsc1": "aries",
+            "hsc2": "leo",
+            "text": "Aries y Leo forman una unión en la que se combina un signo cardinal, Aries, y un signo fijo, como Leo. En este caso, sus relaciones serán esencialmente buenas la mayoría de las veces, pues la tolerancia y consideración suelen estar presentes en su relación, a pesar de tener personalidades bastante diferentes. En el ámbito profesional, sus asociaciones suelen ser convenientes, pues a sus capacidades se une un fabuloso talento creativo que dará sus frutos. El punto negro de su relación es la tendencia que presentan a mandar, pero como son personas sensatas, acostumbran a solucionar esta cuestión de la mejor manera para las dos partes.
+
+            No obstante, cuando se trata de relaciones sentimentales, lo tienen más complicado. Su unión suele ser demasiado tormentosa, ya que se caracterizan por caer de vez en cuando en la soberbia y la vanidad. Cuando Aries y Leo chocan, parece que se van a destripar, aunque solo lo parezca; la reconciliación será maravillosa en todos los sentidos, especialmente en el sexual (así, cualquiera discute). En fin, la relación de Aries y Leo suele estar teñida de dos elementos básicos: el amor y el odio. Precisamente por eso les resulta tan atractiva."
+        },
+        {
+            "id": 6,
+            "hsc1": "aries",
+            "hsc2": "virgo",
+            "text": ""
+        }        ,
+        {
+            "id": 7,
+            "hsc1": "aries",
+            "hsc2": "libra",
+            "text": ""
+        },
+        {
+            "id": 8,
+            "hsc1": "aries",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 9,
+            "hsc1": "aries",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 10,
+            "hsc1": "aries",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 11,
+            "hsc1": "aries",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 12,
+            "hsc1": "aries",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 13,
+            "hsc1": "tauro",
+            "hsc2": "tauro",
+            "text": ""
+        },
+        {
+            "id": 14,
+            "hsc1": "tauro",
+            "hsc2": "geminis",
+            "text": ""
+        },
+        {
+            "id": 15,
+            "hsc1": "tauro",
+            "hsc2": "cancer",
+            "text": ""
+        },
+        {
+            "id": 16,
+            "hsc1": "tauro",
+            "hsc2": "leo",
+            "text": ""
+        },
+        {
+            "id": 17,
+            "hsc1": "tauro",
+            "hsc2": "virgo",
+            "text": ""
+        },
+        {
+            "id": 18,
+            "hsc1": "tauro",
+            "hsc2": "libra",
+            "text": ""
+        },
+        {
+            "id": 19,
+            "hsc1": "tauro",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 20,
+            "hsc1": "tauro",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 21,
+            "hsc1": "tauro",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 22,
+            "hsc1": "tauro",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 23,
+            "hsc1": "tauro",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 24,
+            "hsc1": "geminis",
+            "hsc2": "geminis",
+            "text": ""
+        },
+        {
+            "id": 25,
+            "hsc1": "geminis",
+            "hsc2": "cancer",
+            "text": ""
+        },
+        {
+            "id": 26,
+            "hsc1": "geminis",
+            "hsc2": "leo",
+            "text": ""
+        },
+        {
+            "id": 27,
+            "hsc1": "geminis",
+            "hsc2": "virgo",
+            "text": ""
+        },
+        {
+            "id": 28,
+            "hsc1": "geminis",
+            "hsc2": "libra",
+            "text": ""
+        },
+        {
+            "id": 29,
+            "hsc1": "geminis",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 30,
+            "hsc1": "geminis",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 31,
+            "hsc1": "geminis",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 32,
+            "hsc1": "geminis",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 33,
+            "hsc1": "geminis",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 34,
+            "hsc1": "cancer",
+            "hsc2": "cancer",
+            "text": ""
+        },
+        {
+            "id": 35,
+            "hsc1": "cancer",
+            "hsc2": "leo",
+            "text": ""
+        },
+        {
+            "id": 36,
+            "hsc1": "cancer",
+            "hsc2": "libra",
+            "text": ""
+        },
+        {
+            "id": 37,
+            "hsc1": "cancer",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 38,
+            "hsc1": "cancer",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 39,
+            "hsc1": "cancer",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 40,
+            "hsc1": "cancer",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 41,
+            "hsc1": "cancer",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 42,
+            "hsc1": "leo",
+            "hsc2": "leo",
+            "text": ""
+        },
+        {
+            "id": 43,
+            "hsc1": "leo",
+            "hsc2": "virgo",
+            "text": ""
+        },
+        {
+            "id": 44,
+            "hsc1": "leo",
+            "hsc2": "libra",
+            "text": ""
+        },
+        {
+            "id": 45,
+            "hsc1": "leo",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 46,
+            "hsc1": "leo",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 47,
+            "hsc1": "leo",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 48,
+            "hsc1": "leo",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 49,
+            "hsc1": "leo",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 50,
+            "hsc1": "virgo",
+            "hsc2": "virgo",
+            "text": ""
+        },
+        {
+            "id": 51,
+            "hsc1": "virgo",
+            "hsc2": "libra",
+            "text": ""
+        },
+        {
+            "id": 52,
+            "hsc1": "virgo",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 53,
+            "hsc1": "virgo",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 54,
+            "hsc1": "virgo",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 55,
+            "hsc1": "virgo",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 56,
+            "hsc1": "virgo",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 57,
+            "hsc1": "libra",
+            "hsc2": "libra",
+            "text": ""
+        },
+        {
+            "id": 58,
+            "hsc1": "libra",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 59,
+            "hsc1": "libra",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 60,
+            "hsc1": "libra",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 61,
+            "hsc1": "libra",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 62,
+            "hsc1": "libra",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 63,
+            "hsc1": "escorpio",
+            "hsc2": "escorpio",
+            "text": ""
+        },
+        {
+            "id": 64,
+            "hsc1": "escorpio",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 65,
+            "hsc1": "escorpio",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 66,
+            "hsc1": "escorpio",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 67,
+            "hsc1": "sagitario",
+            "hsc2": "sagitario",
+            "text": ""
+        },
+        {
+            "id": 68,
+            "hsc1": "sagitario",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 69,
+            "hsc1": "sagitario",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 70,
+            "hsc1": "sagitario",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 71,
+            "hsc1": "capricornio",
+            "hsc2": "capricornio",
+            "text": ""
+        },
+        {
+            "id": 72,
+            "hsc1": "capricornio",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 73,
+            "hsc1": "capricornio",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 74,
+            "hsc1": "acuario",
+            "hsc2": "acuario",
+            "text": ""
+        },
+        {
+            "id": 75,
+            "hsc1": "acuario",
+            "hsc2": "piscis",
+            "text": ""
+        },
+        {
+            "id": 76,
+            "hsc1": "piscis",
+            "hsc2": "piscis",
+            "text": ""
         }
 ]
