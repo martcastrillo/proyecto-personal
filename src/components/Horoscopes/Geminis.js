@@ -24,9 +24,9 @@ const Geminis = () => {
 					<Link to="/Horoscopos" className="link">
 						<i className="fa-solid fa-chevron-left"></i>Volver
 					</Link>
-					<Link to="/Famosos-de-tu-signo" className="link">
+				{/* 	<Link to="/Famosos-de-tu-signo" className="link">
 					Famosos de este signo  <i className="fa-solid fa-chevron-down"></i>
-					</Link>
+					</Link> */}
 					<Link to="/Relaciones" className="link">Chequea la compatibilidad 	<i className="fa-solid fa-chevron-right"></i>	
 					</Link>
 					

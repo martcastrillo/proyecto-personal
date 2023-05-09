@@ -37,7 +37,7 @@ function App() {
 						Horoscopos
 					</NavLink>
 				</li>
-				<li>
+			{/* 	<li>
 					<NavLink
 						to="/Famosos-de-tu-signo"
 						className="nav__element"
@@ -45,7 +45,7 @@ function App() {
 					>
 						Famosos de tu signo
 					</NavLink>
-				</li>
+				</li> */}
 				<li>
 					<NavLink
 						to="/Compatibilidad"
@@ -81,9 +81,9 @@ function App() {
 						
 					}
 				></Route>
-				<Route path="/Famosos-de-tu-signo" element={<Famoso />}>
+			{/* 	<Route path="/Famosos-de-tu-signo" element={<Famoso />}>
 	
-				</Route> 
+				</Route>  */}
 				<Route path="/Compatibilidad" element={<Relaciones />}></Route>
 				<Route path="/aries" element={<Aries />}></Route>
 				<Route path="/tauro" element={<Tauro />}></Route>
