@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.7348f2eb.css",
-    "main.js": "./static/js/main.da77ee08.js",
-    "static/media/famous-frame.png": "./static/media/famous-frame.6cdef3e01bd3f3df4ced.png",
+    "main.css": "./static/css/main.c8524f8c.css",
+    "main.js": "./static/js/main.19649af7.js",
     "static/media/piscismarco.png": "./static/media/piscismarco.33e41a8d2b2505813946.png",
     "static/media/cancermarco.png": "./static/media/cancermarco.a60f031106e670b93db1.png",
     "static/media/escorpiomarco.png": "./static/media/escorpiomarco.98051050d5200ebcf9f2.png",
@@ -18,11 +17,11 @@
     "static/media/handright.png": "./static/media/handright.58409d271e9e4e5727f9.png",
     "static/media/handleft.png": "./static/media/handleft.de1b8e14be7098d65b82.png",
     "index.html": "./index.html",
-    "main.7348f2eb.css.map": "./static/css/main.7348f2eb.css.map",
-    "main.da77ee08.js.map": "./static/js/main.da77ee08.js.map"
+    "main.c8524f8c.css.map": "./static/css/main.c8524f8c.css.map",
+    "main.19649af7.js.map": "./static/js/main.19649af7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7348f2eb.css",
-    "static/js/main.da77ee08.js"
+    "static/css/main.c8524f8c.css",
+    "static/js/main.19649af7.js"
   ]
 }
