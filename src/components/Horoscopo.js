@@ -9,19 +9,19 @@ const Inicio = () => {
 	  } */
 	  const handleGroup = (ev) => {
 		setGroup(ev.target.id);
-		console.log(ev.target.id);
+	/* 	console.log(ev.target.id); */
 	  }
 	const htmlData = datadev
     .filter((filterGroup) => {
       let result = '';
 	  
       if (group === 'todos') {
-		console.log('todos');
+/* 		console.log('todos'); */
 		result = true;
         return result;
       }
       else if (filterGroup.type === group) {
-        console.log(filterGroup.type );
+/*         console.log(filterGroup.type ); */
 		result = true;
         return result;
 		
@@ -40,11 +40,12 @@ const Inicio = () => {
 
 	return (
 		<div className="background-main">
-			<div onClick={handleGroup} id="todos">Todos</div>
-			<div onClick={handleGroup} id="fire">Fuego</div>
-			<div onClick={handleGroup} id="earth">Tierra</div>
-			<div onClick={handleGroup} id="agua">Agua</div>
-			<div onClick={handleGroup} id="air">Aire</div>
+			<div className="form">
+			<div className="form__group" onClick={handleGroup} id="todos">Todos</div>
+			<div className="form__group" onClick={handleGroup} id="fire">Fuego</div>
+			<div className="form__group" onClick={handleGroup} id="earth">Tierra</div>
+			<div className="form__group" onClick={handleGroup} id="agua">Agua</div>
+			<div className="form__group" onClick={handleGroup} id="air">Aire</div></div>
 			{/* <form action="" className="form">
 			<input type="checkbox"value="todos" id="todos" onChange={handleSearchGroup}/>
 				<label htmlFor=""> Todos</label>

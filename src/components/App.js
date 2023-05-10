@@ -23,7 +23,7 @@ import Leo from "./Horoscopes/Leo";
 import Geminis from "./Horoscopes/Geminis";
 import data from "../services/data.json"
 function App() {
-	console.log(data);
+	/* console.log(data); */
 	return (
 		<>
 			<ul className="nav">
