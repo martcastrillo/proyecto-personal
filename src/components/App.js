@@ -3,7 +3,7 @@ import { Routes, Route, Link, NavLink } from "react-router-dom";
 import "../styles/App.scss";
 
 import Inicio from "./Inicio";
-import Famoso from "./Famoso";
+/* import Famoso from "./Famoso"; */
 import Horoscopo from "./Horoscopo";
 import Relaciones from "./Relaciones";
 
@@ -21,7 +21,7 @@ import Acuario from "./Horoscopes/Acuario";
 import Virgo from "./Horoscopes/Virgo";
 import Leo from "./Horoscopes/Leo";
 import Geminis from "./Horoscopes/Geminis";
-import data from "../services/data.json"
+/* import data from "../services/data.json" */
 function App() {
 	/* console.log(data); */
 	return (
