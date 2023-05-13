@@ -11,13 +11,14 @@ import piscis from "../images/signs/PISCIS.png";
 import sagitario from "../images/signs/SAGITARIO.png";
 import tauro from "../images/signs/TAURO.png";
 import virgo from "../images/signs/VIRGO.png";
+import int from "../images/signs/INTERROGATION.png";
 import relations from "../services/relations.json";
 import { useState } from "react";
 const Relaciones = () => {
 	const [hscp1, setHscp1] = useState("");
 	const [hscp2, setHscp2] = useState("");
-	const [hscpImg1, setHscpImg1] = useState("");
-	const [hscpImg2, setHscpImg2] = useState("");
+	const [hscpImg1, setHscpImg1] = useState(int);
+	const [hscpImg2, setHscpImg2] = useState(int);
 	const [hscpText, setHscpText] = useState("");
 	const handleOnChange = (ev) => {
 		let value = ev.target.value;
@@ -127,10 +128,11 @@ const Relaciones = () => {
 				<span className="relations__sign">
 			{/* 		{htmlData1} */}
 					<span /* key={index} */ className="spantext"><h2 className="relations__hrscpB">{hscp1}</h2>
-			<img src={hscpImg1} alt="" className="relations__sign__image " /></span>
-					<span className="selection">
+					<span className="spanimg">		<img src={hscpImg1} alt="" className="relations__sign__image " /></span>
+				</span>	<span className="selection">
 						<form action="">
 							<select className="select" name="" id="" onChange={handleOnChange}>
+							<option value="" selected disabled hidden>Choose here</option>
 								<option value="Acuario">Acuario</option>
 								<option value="Aries">Aries</option>
 								<option value="Cáncer">Cáncer</option>
@@ -151,10 +153,11 @@ const Relaciones = () => {
 				<span className="relations__sign">
 			{/* 		{htmlData2} */}
 					<span /* key={index} */ className="spantext"><h2 className="relations__hrscpB">{hscp2}</h2>
-			<img src={hscpImg2} alt="" className="relations__sign__image " /></span>
+			<span className="spanimg">	<img src={hscpImg2} alt="" className="relations__sign__image " /></span></span>
 					<span className="selection">
 						<form action="">
 							<select className="select" name="" id="" onChange={handleOnChange2}>
+							<option value="" selected disabled hidden>Choose here</option>
 								<option value="Acuario">Acuario</option>
 								<option value="Aries">Aries</option>
 								<option value="Cáncer">Cáncer</option>
