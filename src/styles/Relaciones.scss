@@ -5,7 +5,7 @@
 	justify-content: center;
 	gap: 10px;
 	margin: 5px;
-
+	margin-top: 30px;
 	@media all and (min-width: 768px) {
 		gap: 100px;
 	}
@@ -16,11 +16,11 @@
 		align-items: center;
 
 		&__image {
-			width: 180px;
+			height: 180px;
 			filter: drop-shadow(0px 0px 6px $color-golden);
-
+		
 			@media all and (min-width: 768px) {
-				width: 200px;
+				height:  200px;
 			}
 		}
 	}
@@ -28,14 +28,22 @@
 	&__hrscpA {
 		font-family: $font-main;
 		color: $color-golden;
+		
+		height: 40px;
 	}
 
 	&__hrscpB {
 		font-family: $font-main;
 		color: $color-second;
+		
+		height: 40px;
 	}
 }
-
+.spantext{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .VS {
 	align-self: center;
 	color:$color-third;
@@ -106,7 +114,7 @@
 	line-height: 30px;
 	font-family: $font-second;
 	font-size: 12px;
-
+	height: 180px;
 
 
 	/*    @media all and (min-width: 768px) {
@@ -154,7 +162,7 @@
 	appearance: none;
 	-ms-appearance: none;
 	font-size: 12px;
-
+	
 	@media all and (min-width: 768px) {
 		font-size: 16px;
 	}

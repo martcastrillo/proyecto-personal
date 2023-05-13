@@ -1,52 +1,173 @@
 import "../styles/Relaciones.scss";
 import aquario from "../images/signs/AQUARIO.png";
+import aries from "../images/signs/ARIES.png";
+import cancer from "../images/signs/CANCER.png";
+import capricornio from "../images/signs/CAPRICORNIO.png";
+import escorpio from "../images/signs/ESCORPIO.png";
+import geminis from "../images/signs/GEMINIS.png";
+import leo from "../images/signs/LEO.png";
+import libra from "../images/signs/LIBRA.png";
+import piscis from "../images/signs/PISCIS.png";
+import sagitario from "../images/signs/SAGITARIO.png";
+import tauro from "../images/signs/TAURO.png";
 import virgo from "../images/signs/VIRGO.png";
+import relations from "../services/relations.json";
+import { useState } from "react";
 const Relaciones = () => {
+	const [hscp1, setHscp1] = useState("");
+	const [hscp2, setHscp2] = useState("");
+	const [hscpImg1, setHscpImg1] = useState("");
+	const [hscpImg2, setHscpImg2] = useState("");
+	const [hscpText, setHscpText] = useState("");
+	const handleOnChange = (ev) => {
+		let value = ev.target.value;
+		setHscp1(value);
+		if(value === "Acuario" ){
+			setHscpImg1(aquario);
+		}
+		if(value === "Aries" ){
+			setHscpImg1(aries);
+		}
+		if(value === "Cáncer" ){
+			setHscpImg1(cancer);
+		}
+		if(value === "Capricornio" ){
+			setHscpImg1(capricornio);
+		}
+		if(value === "Escorpio" ){
+			setHscpImg1(escorpio);
+		}
+		if(value === "Géminis" ){
+			setHscpImg1(geminis);
+		}
+		if(value === "Leo" ){
+			setHscpImg1(leo);
+		}
+		if(value === "Libra" ){
+			setHscpImg1(libra);
+		}
+		if(value === "Piscis" ){
+			setHscpImg1(piscis);
+		}
+		if(value === "Sagitario" ){
+			setHscpImg1(sagitario);
+		}
+		if(value === "Tauro" ){
+			setHscpImg1(tauro);
+		}
+		if(value === "Virgo" ){
+			setHscpImg1(virgo);
+		}
+	};
+	const handleOnChange2 = (ev) => {
+		let value = ev.target.value;
+		setHscp2(value);
+		if(value === "Acuario" ){
+			setHscpImg2(aquario);
+		}
+		if(value === "Aries" ){
+			setHscpImg2(aries);
+		}
+		if(value === "Cáncer" ){
+			setHscpImg2(cancer);
+		}
+		if(value === "Capricornio" ){
+			setHscpImg2(capricornio);
+		}
+		if(value === "Escorpio" ){
+			setHscpImg2(escorpio);
+		}
+		if(value === "Géminis" ){
+			setHscpImg2(geminis);
+		}
+		if(value === "Leo" ){
+			setHscpImg2(leo);
+		}
+		if(value === "Libra" ){
+			setHscpImg2(libra);
+		}
+		if(value === "Piscis" ){
+			setHscpImg2(piscis);
+		}
+		if(value === "Sagitario" ){
+			setHscpImg2(sagitario);
+		}
+		if(value === "Tauro" ){
+			setHscpImg2(tauro);
+		}
+		if(value === "Virgo" ){
+			setHscpImg2(virgo);
+		}
+	};
+
+
+
+
+	/* const htmlData1 = relations.map((relation, index) => {
+
+		return (<span  key={index}><h2 className="relations__hrscpA">{relation.hsc1}</h2>
+			<img src={relation.img1}alt="" className="relations__sign__image " /></span>);
+	});
+	const htmlData2 = relations.map((relation, index) => {
+
+		return (<span key={index}><h2 className="relations__hrscpB">{relation.hsc2}</h2>
+			<img src={relation.img2} alt="" className="relations__sign__image " /></span>);
+	}); 
+	setHscpImg1();
+	setHscpImg2();
+	setHscpText();*/
+
+
+
+
 	return (
 		<div>
 			<div className="relations">
+
 				<span className="relations__sign">
-					<img src={aquario} alt="" className="relations__sign__image" />
-					<h2 className="relations__hrscpA">Aquario</h2>
+			{/* 		{htmlData1} */}
+					<span /* key={index} */ className="spantext"><h2 className="relations__hrscpB">{hscp1}</h2>
+			<img src={hscpImg1} alt="" className="relations__sign__image " /></span>
 					<span className="selection">
-					<form action="">
-							<select className="select" name="" id="">
-							<option value="">Acuario</option>
-							<option value="">Aries</option>
-							<option value="">Cáncer</option>
-							<option value="">Capricornio</option>
-							<option value="">Escorpio</option>
-							<option value="">Géminis</option>
-							<option value="">Leo</option>
-							<option value="">Libra</option>
-							<option value="">Piscis</option>
-							<option value="">Sagitario</option>
-							<option value="">Tauro</option>
-							<option value="">Virgo</option>
+						<form action="">
+							<select className="select" name="" id="" onChange={handleOnChange}>
+								<option value="Acuario">Acuario</option>
+								<option value="Aries">Aries</option>
+								<option value="Cáncer">Cáncer</option>
+								<option value="Capricornio">Capricornio</option>
+								<option value="Escorpio">Escorpio</option>
+								<option value="Géminis">Géminis</option>
+								<option value="Leo">Leo</option>
+								<option value="Libra">Libra</option>
+								<option value="Piscis">Piscis</option>
+								<option value="Sagitario">Sagitario</option>
+								<option value="Tauro">Tauro</option>
+								<option value="Virgo">Virgo</option>
 							</select>
 						</form>
-						</span>
+					</span>
 				</span>
 				<h2 className="VS">VS</h2>
 				<span className="relations__sign">
-					<img src={virgo} alt="" className="relations__sign__image" />
-					<h2 className="relations__hrscpB">Virgo</h2>
+			{/* 		{htmlData2} */}
+					<span /* key={index} */ className="spantext"><h2 className="relations__hrscpB">{hscp2}</h2>
+			<img src={hscpImg2} alt="" className="relations__sign__image " /></span>
 					<span className="selection">
 						<form action="">
-							<select className="select" name="" id="">
-							<option value="">Virgo</option>
-							<option value="">Acuario</option>
-							<option value="">Aries</option>
-							<option value="">Cáncer</option>
-							<option value="">Capricornio</option>
-							<option value="">Escorpio</option>
-							<option value="">Géminis</option>
-							<option value="">Leo</option>
-							<option value="">Libra</option>
-							<option value="">Piscis</option>
-							<option value="">Sagitario</option>
-							<option value="">Tauro</option>
-						
+							<select className="select" name="" id="" onChange={handleOnChange2}>
+								<option value="Acuario">Acuario</option>
+								<option value="Aries">Aries</option>
+								<option value="Cáncer">Cáncer</option>
+								<option value="Capricornio">Capricornio</option>
+								<option value="Escorpio">Escorpio</option>
+								<option value="Géminis">Géminis</option>
+								<option value="Leo">Leo</option>
+								<option value="Libra">Libra</option>
+								<option value="Piscis">Piscis</option>
+								<option value="Sagitario">Sagitario</option>
+								<option value="Tauro">Tauro</option>
+								<option value="Virgo">Virgo</option>
+
 							</select>
 						</form>
 						{/* <h2 className="rbutton"> Horóscopo Random</h2> */}
@@ -54,8 +175,9 @@ const Relaciones = () => {
 				</span>
 			</div>
 
-			<h3 className="text_relations">
-			Aries es un signo cardinal, y dos personas nacidas bajo este signo comparten esa característica en común; con ello, no es muy difícil deducir que presentan, más o menos, los mismos rasgos, para bien y para mal. Generalmente, aborrecen y aprecian las mismas cosas, así que, en principio, suelen congeniar estupendamente. En el ámbito profesional tienen talento para el mando, aunque cuando tienen que trabajar conjuntamente deben intentar no imponer su voluntad a la otra parte, pues si lo hacen se perderán en unas luchas de poder improductivas.			</h3>
+			<h3 className="text_relations js_text_relations">
+				{hscpText}
+			</h3>
 		</div>
 	);
 };
