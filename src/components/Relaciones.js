@@ -19,105 +19,105 @@ const Relaciones = () => {
 	const [hscp2, setHscp2] = useState("");
 	const [hscpImg1, setHscpImg1] = useState(int);
 	const [hscpImg2, setHscpImg2] = useState(int);
-	const [hscpText, setHscpText] = useState("");
+
 	const handleOnChange = (ev) => {
 		let value = ev.target.value;
 		setHscp1(value);
-		if(value === "Acuario" ){
+		if (value === "Acuario") {
 			setHscpImg1(aquario);
 		}
-		if(value === "Aries" ){
+		if (value === "aries") {
 			setHscpImg1(aries);
 		}
-		if(value === "Cáncer" ){
+		if (value === "cancer") {
 			setHscpImg1(cancer);
 		}
-		if(value === "Capricornio" ){
+		if (value === "capricornio") {
 			setHscpImg1(capricornio);
 		}
-		if(value === "Escorpio" ){
+		if (value === "escorpio") {
 			setHscpImg1(escorpio);
 		}
-		if(value === "Géminis" ){
+		if (value === "geminis") {
 			setHscpImg1(geminis);
 		}
-		if(value === "Leo" ){
+		if (value === "leo") {
 			setHscpImg1(leo);
 		}
-		if(value === "Libra" ){
+		if (value === "libra") {
 			setHscpImg1(libra);
 		}
-		if(value === "Piscis" ){
+		if (value === "piscis") {
 			setHscpImg1(piscis);
 		}
-		if(value === "Sagitario" ){
+		if (value === "sagitario") {
 			setHscpImg1(sagitario);
 		}
-		if(value === "Tauro" ){
+		if (value === "tauro") {
 			setHscpImg1(tauro);
 		}
-		if(value === "Virgo" ){
+		if (value === "virgo") {
 			setHscpImg1(virgo);
 		}
 	};
 	const handleOnChange2 = (ev) => {
 		let value = ev.target.value;
 		setHscp2(value);
-		if(value === "Acuario" ){
+		if (value === "acuario") {
 			setHscpImg2(aquario);
 		}
-		if(value === "Aries" ){
+		if (value === "aries") {
 			setHscpImg2(aries);
 		}
-		if(value === "Cáncer" ){
+		if (value === "cancer") {
 			setHscpImg2(cancer);
 		}
-		if(value === "Capricornio" ){
+		if (value === "capricornio") {
 			setHscpImg2(capricornio);
 		}
-		if(value === "Escorpio" ){
+		if (value === "escorpio") {
 			setHscpImg2(escorpio);
 		}
-		if(value === "Géminis" ){
+		if (value === "geminis") {
 			setHscpImg2(geminis);
 		}
-		if(value === "Leo" ){
+		if (value === "leo") {
 			setHscpImg2(leo);
 		}
-		if(value === "Libra" ){
+		if (value === "libra") {
 			setHscpImg2(libra);
 		}
-		if(value === "Piscis" ){
+		if (value === "piscis") {
 			setHscpImg2(piscis);
 		}
-		if(value === "Sagitario" ){
+		if (value === "sagitario") {
 			setHscpImg2(sagitario);
 		}
-		if(value === "Tauro" ){
+		if (value === "tauro") {
 			setHscpImg2(tauro);
 		}
-		if(value === "Virgo" ){
+		if (value === "virgo") {
 			setHscpImg2(virgo);
 		}
 	};
 
 
 
+	const htmlData = relations.filter((group) => {
+		let result = '';
+		if ((hscp1 === group.hsc1 && hscp2 === group.hsc2) || (hscp1 === group.hsc2 && hscp2 === group.hsc1)) {
 
-	/* const htmlData1 = relations.map((relation, index) => {
+			console.log('coincide');
+			result = true;
+				return result;
+		}
+	})
+		.map((group, index) => {
 
-		return (<span  key={index}><h2 className="relations__hrscpA">{relation.hsc1}</h2>
-			<img src={relation.img1}alt="" className="relations__sign__image " /></span>);
-	});
-	const htmlData2 = relations.map((relation, index) => {
-
-		return (<span key={index}><h2 className="relations__hrscpB">{relation.hsc2}</h2>
-			<img src={relation.img2} alt="" className="relations__sign__image " /></span>);
-	}); 
-	setHscpImg1();
-	setHscpImg2();
-	setHscpText();*/
-
+			return (
+				<h3 className="text_relations js_text_relations" key={index}>{group.text}</h3>
+			)
+		});
 
 
 
@@ -126,50 +126,50 @@ const Relaciones = () => {
 			<div className="relations">
 
 				<span className="relations__sign">
-			{/* 		{htmlData1} */}
-					<span /* key={index} */ className="spantext"><h2 className="relations__hrscpB">{hscp1}</h2>
-					<span className="spanimg">		<img src={hscpImg1} alt="" className="relations__sign__image " /></span>
-				</span>	<span className="selection">
+
+					<span className="spantext"><h2 className="relations__hrscpB">{hscp1}</h2>
+						<span className="spanimg">		<img src={hscpImg1} alt="" className="relations__sign__image " /></span>
+					</span>	<span className="selection">
 						<form action="">
 							<select className="select" name="" id="" onChange={handleOnChange}>
-							<option value="" selected disabled hidden>Choose here</option>
-								<option value="Acuario">Acuario</option>
-								<option value="Aries">Aries</option>
-								<option value="Cáncer">Cáncer</option>
-								<option value="Capricornio">Capricornio</option>
-								<option value="Escorpio">Escorpio</option>
-								<option value="Géminis">Géminis</option>
-								<option value="Leo">Leo</option>
-								<option value="Libra">Libra</option>
-								<option value="Piscis">Piscis</option>
-								<option value="Sagitario">Sagitario</option>
-								<option value="Tauro">Tauro</option>
-								<option value="Virgo">Virgo</option>
+								<option value="default" selected disabled hidden>Choose here</option>
+								<option value="acuario">Acuario</option>
+								<option value="aries">Aries</option>
+								<option value="cancer">Cáncer</option>
+								<option value="capricornio">Capricornio</option>
+								<option value="escorpio">Escorpio</option>
+								<option value="geminis">Géminis</option>
+								<option value="leo">Leo</option>
+								<option value="libra">Libra</option>
+								<option value="piscis">Piscis</option>
+								<option value="sagitario">Sagitario</option>
+								<option value="tauro">Tauro</option>
+								<option value="virgo">Virgo</option>
 							</select>
 						</form>
 					</span>
 				</span>
 				<h2 className="VS">VS</h2>
 				<span className="relations__sign">
-			{/* 		{htmlData2} */}
-					<span /* key={index} */ className="spantext"><h2 className="relations__hrscpB">{hscp2}</h2>
-			<span className="spanimg">	<img src={hscpImg2} alt="" className="relations__sign__image " /></span></span>
+
+					<span className="spantext"><h2 className="relations__hrscpB">{hscp2}</h2>
+						<span className="spanimg">	<img src={hscpImg2} alt="" className="relations__sign__image " /></span></span>
 					<span className="selection">
 						<form action="">
 							<select className="select" name="" id="" onChange={handleOnChange2}>
-							<option value="" selected disabled hidden>Choose here</option>
-								<option value="Acuario">Acuario</option>
-								<option value="Aries">Aries</option>
-								<option value="Cáncer">Cáncer</option>
-								<option value="Capricornio">Capricornio</option>
-								<option value="Escorpio">Escorpio</option>
-								<option value="Géminis">Géminis</option>
-								<option value="Leo">Leo</option>
-								<option value="Libra">Libra</option>
-								<option value="Piscis">Piscis</option>
-								<option value="Sagitario">Sagitario</option>
-								<option value="Tauro">Tauro</option>
-								<option value="Virgo">Virgo</option>
+								<option value="default" selected disabled hidden>Choose here</option>
+								<option value="acuario">Acuario</option>
+								<option value="aries">Aries</option>
+								<option value="cancer">Cáncer</option>
+								<option value="capricornio">Capricornio</option>
+								<option value="escorpio">Escorpio</option>
+								<option value="geminis">Géminis</option>
+								<option value="leo">Leo</option>
+								<option value="libra">Libra</option>
+								<option value="piscis">Piscis</option>
+								<option value="sagitario">Sagitario</option>
+								<option value="tauro">Tauro</option>
+								<option value="virgo">Virgo</option>
 
 							</select>
 						</form>
@@ -178,9 +178,9 @@ const Relaciones = () => {
 				</span>
 			</div>
 
-			<h3 className="text_relations js_text_relations">
-				{hscpText}
-			</h3>
+
+			{htmlData}
+
 		</div>
 	);
 };
