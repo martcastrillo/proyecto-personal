@@ -32,7 +32,6 @@ const Relaciones = () => {
 					<img src={virgo} alt="" className="relations__sign__image" />
 					<h2 className="relations__hrscpB">Virgo</h2>
 					<span className="selection">
-						
 						<form action="">
 							<select className="select" name="" id="">
 							<option value="">Virgo</option>
@@ -50,14 +49,13 @@ const Relaciones = () => {
 						
 							</select>
 						</form>
-						<h2 className="rbutton"> Horóscopo Random</h2>
+						{/* <h2 className="rbutton"> Horóscopo Random</h2> */}
 					</span>
 				</span>
 			</div>
 
 			<h3 className="text_relations">
-			Cuando se trata de sus relaciones sentimentales, Virgo y Acuario comparten una personalidad curiosa que hace que experimenten constantemente en diferentes terrenos, Acuario sobre todo, quien adora la aventura arrastrando a Virgo consigo, ¿y qué aventura hay más excitante que el amor?
-			</h3>
+			Aries es un signo cardinal, y dos personas nacidas bajo este signo comparten esa característica en común; con ello, no es muy difícil deducir que presentan, más o menos, los mismos rasgos, para bien y para mal. Generalmente, aborrecen y aprecian las mismas cosas, así que, en principio, suelen congeniar estupendamente. En el ámbito profesional tienen talento para el mando, aunque cuando tienen que trabajar conjuntamente deben intentar no imponer su voluntad a la otra parte, pues si lo hacen se perderán en unas luchas de poder improductivas.			</h3>
 		</div>
 	);
 };
