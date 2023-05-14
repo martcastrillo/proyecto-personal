@@ -3,6 +3,7 @@
 body {
 	background-image: url("../images/Fondo.png");
 	font-family: $font-main;
+	
 }
 
 .nav {
@@ -35,23 +36,28 @@ body {
 	}
 }
 .headermain {
-	margin-top: 20px;
-	height: 140px;
-	width: 100%;
+
+	margin-top: 100px;
+	width: 100vw;
+	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 	.logomain {
-		height: 50px;
-		@media all and (min-width: 768px) {
+	
+			height: 50px;
+	
+		@media all and (min-width: 1280px) {
 			height: 100px;
 		}
 	}
 
-	@media all and (min-width: 768px) {
-		margin-top: 40px;
-		width: 100vw;
-		height: 100px;
+
+		
+
+	@media all and (min-width: 1280px) {
+		margin-top: 60px;
 	}
 	.h1main {
 		font-size: 50px;
@@ -72,8 +78,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
-
+	height: 60%;
 	gap: 40px;
 	.h3 {
 		margin-top: 60px;
