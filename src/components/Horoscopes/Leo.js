@@ -30,7 +30,7 @@ const Leo = () => {
 				{/* 	<Link to="/Famosos-de-tu-signo" className="link">
 					Famosos de este signo  <i className="fa-solid fa-chevron-down"></i>
 					</Link> */}
-					<Link to="/Relaciones" className="link">Chequea la compatibilidad 	<i className="fa-solid fa-chevron-right"></i>	
+					<Link to="/Compatibilidad"  className="link">Chequea la compatibilidad 	<i className="fa-solid fa-chevron-right"></i>	
 					</Link>
 					
 					</div>

@@ -109,8 +109,9 @@ const Relaciones = () => {
 
 			console.log('coincide');
 			result = true;
-				return result;
+			
 		}
+		return result;
 	})
 		.map((group, index) => {
 
